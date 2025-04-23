@@ -1,2 +1,3 @@
-🔍 BuscaInteligente
-Aplicação React que permite buscar resumos da Wikipedia em português. Utiliza a API da Wikipedia para exibir títulos, descrições, imagens e links relevantes.
+# 🔍 BuscaInteligente
+
+Uma aplicação React que permite buscar resumos inteligentes da Wikipedia em português. Ela utiliza a API da Wikipedia para exibir resultados relevantes com título, imagem, descrição e link.
