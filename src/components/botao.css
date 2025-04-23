@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    font-family: Arial, sans-serif;
+  }
+  
+  [data-theme="dark"] body {
+    background-color: black;
+    color: white;
+  }
+  
+  [data-theme="dark"] a {
+    color: white; 
+  }
+  
+  [data-theme="light"] a {
+    color: black; 
+  }
+  
+
+  
+  .botao-tema {
+    border-radius: 50%;
+    font-size: 1.5vw;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    padding: 10px;
+    transition: color 0.3s, box-shadow 0.3s;
+  }
+  
+  
+
+  
+
+  [data-theme="dark"] .navBar {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Sombra clara para containers no tema escuro */
+  }
+  
+
