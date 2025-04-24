@@ -18,7 +18,7 @@ function BuscaAutomatica() {
       try {
         const resultados = [];
 
-        // Usando forEach, mas com um loop manual para aguardar a requisição
+        
         termos.forEach(async (termo) => {
           const res = await fetch(
             `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(termo)}`
