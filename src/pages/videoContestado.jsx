@@ -1,0 +1,12 @@
+import './videoContestado.css';
+
+function Pagina10() {
+    return (
+      <div>
+        <h1>Bem vindo</h1>
+      </div>
+    );
+  }
+  
+  export default Pagina10;
+  
