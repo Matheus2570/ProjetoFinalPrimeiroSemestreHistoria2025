@@ -115,12 +115,12 @@ function Pagina1() {
       {/*Aqui*/}
 
       <Footer
-        link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
-        nome1="Site 1"
-        link2="https://www.todamateria.com.br/guerra-do-contestado/"
-        nome2="Site 2"
-        link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
-        nome3="Site 3"
+        link1="https://www.fflch.usp.br/127134"
+        nome1="Site: fflch.usp.br"
+        link2="https://museudarepublica.museus.gov.br/wp-content/uploads/2017/10/CronoCanudos.pdf"
+        nome2="Site: Museudarepublica.museus.gov.br"
+        link3="https://atlas.fgv.br/verbetes/guerra-de-canudos"
+        nome3="Site: Atlas.fgv.br"
       />
 
     </div>
