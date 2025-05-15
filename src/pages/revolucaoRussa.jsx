@@ -39,7 +39,7 @@ function Pagina4() {
   useEffect(() => {
     const buscarDado = async () => {
       try {
-        const dadoLocal = localStorage.getItem("revoluçãoRussa");
+        const dadoLocal = localStorage.getItem("revolucaoRussa");
         if (dadoLocal) {
           setDado(JSON.parse(dadoLocal));
           setLoading(false);
@@ -50,7 +50,7 @@ function Pagina4() {
           `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent("Revolução Russa")}`
         );
         const resultado = await res.json();
-        localStorage.setItem("revoluçãoRussa", JSON.stringify(resultado));
+        localStorage.setItem("revolucaoRussa", JSON.stringify(resultado));
         setDado(resultado);
       } catch (erro) {
         setErro("Erro ao buscar dados.");
@@ -84,7 +84,7 @@ function Pagina4() {
       {/* Bloco com resumo + carrossel */}
       <div className="resumo-pessoal">
         <div className="resumo-texto">
-          <h2>Resumo pessoal – Guerra do Contestado</h2>
+          <h2>Resumo pessoal – Revolução Russa</h2>
           <p>
            A Rússia, no início do século XX, era um império comandado pelo czar, com grande desigualdade social. A maioria da população vivia na miséria,enquanto a nobreza desfrutava de luxo.
             As ideias comunistas de Karl Marx e Friedrich Engels, que propunham uma sociedade sem classes, começaram a ganhar força entre os russos.
