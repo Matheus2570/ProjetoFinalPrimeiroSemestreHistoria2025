@@ -1,6 +1,6 @@
 .navBar {
   
-  padding: 1%;
+  padding: 3.2%;
   box-shadow: 0 4px 8px #534d43;
   position: relative;
   z-index: 20;
@@ -21,7 +21,7 @@
 
 .tituloSite {
   margin: 0;
-  font-size: 2.6em;
+  font-size: 4em;
  
 }
 

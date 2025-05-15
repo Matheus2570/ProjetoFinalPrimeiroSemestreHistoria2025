@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import './sliderHomePage.css'; 
 
-function SliderHome(props) {
+function SliderHomePage(props) {
   const { imagens } = props;
   const [imagemAtual, setImagemAtual] = useState(0);
 
@@ -20,7 +21,7 @@ function SliderHome(props) {
 
   return (
     <div className="meio">
-      <div id="slider">
+      <div id="slider1">
         {imagens.map((imagem, index) => (
           <img
             key={index}
@@ -31,11 +32,11 @@ function SliderHome(props) {
           />
         ))}
         
-
+      
       
       </div>
     </div>
   );
 }
 
-export default SliderHome;
+export default SliderHomePage;

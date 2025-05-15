@@ -1,0 +1,160 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff; 
+  color: #000000; 
+  padding: 0.6%;
+  margin-top: 2%;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+[data-theme="dark"] .Footer {
+  background-color: #2f2825;
+  box-shadow: 0 -1px 8px #75736f;
+}
+
+[data-theme="light"] .Footer {
+  background-color: #D2C3A5;
+  box-shadow: 0 -1px 8px #75736f;
+  color: white;
+
+}
+
+
+.Bloco3 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2% 1.8%;
+  font-size: 1.2rem;
+  border-radius: 8px; 
+}
+[data-theme="dark"] .Bloco3 {
+  
+  color: #ffffff;
+  border: 2px solid #474747;
+}
+
+.BlocoSobreNos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.6rem;
+  width: 45%;
+ 
+  font-size: 1.2rem;
+  border-radius: 8px; 
+
+}
+
+[data-theme="dark"] .BlocoSobreNos {
+  background-color: #333333;
+  color: #ffffff;
+  border: 2px solid #474747;
+  transition: transform 0.3s ease, background-color 0.7s ease;
+}
+
+[data-theme="dark"] .BlocoSobreNos:hover {
+  background-color: #444444;
+  transform: translateY(-5px);
+}
+
+
+
+[data-theme="light"] .BlocoSobreNos {
+  background-color: #eae3d5;
+  color: #000000;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, background-color 0.7s ease;
+}
+
+[data-theme="light"] .BlocoSobreNos:hover {
+  transform: translateY(-5px);
+}
+
+.BlocoSobreNos a {
+  color: #e67e22; 
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+
+
+.BlocoSobreNos a:hover {
+  color: #333; 
+}
+
+.BlocoReclamacoes {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  gap: 1vw;
+
+  font-size: 1.2rem;
+  border-radius: 8px; 
+  
+}
+
+[data-theme="dark"] .BlocoReclamacoes {
+  background-color: #333333;
+  color: #ffffff;
+  border: 2px solid #474747;
+  transition: transform 0.3s ease, background-color 0.7s ease;
+}
+
+[data-theme="dark"] .BlocoReclamacoes:hover {
+  background-color: #444444;
+  transform: translateY(-5px);
+}
+
+[data-theme="light"] .BlocoReclamacoes {
+  background-color: #eae3d5;
+    color: #000000;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease
+}
+
+[data-theme="light"] .BlocoReclamacoes:hover {
+
+  transform: translateY(-5px);
+}
+
+
+.BlocoReclamacoes p {
+  margin-top: 3.5%;
+}
+
+.footer_social a {
+  margin: 0 5px;
+  font-size: 1.2em;
+  color: #000000; 
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .footer_social a {
+  color: #ffffff; 
+}
+
+
+[data-theme="light"] .footer_social a {
+  color: #000000; 
+}
+
+.footer_social a:hover i {
+  color: #e67e22; 
+}
+
+.footer_social p {
+  font-size: 1.4em;
+}
+
+.footer_social li {
+  font-size: 1.15em;
+  font-weight: bold;
+}
