@@ -130,11 +130,11 @@ function Pagina6() {
 
       <Footer
         link1="https://www.todamateria.com.br/crise-de-1929/"
-        nome1="Site 1"
+        nome1="Toda Matéria"
         link2="https://www.historiadomundo.com.br/idade-contemporanea/crisede29.htm"
-        nome2="Site 2"
+        nome2="História do Mundo"
         link3="https://brasilescola.uol.com.br/historiag/crise29.htm"
-        nome3="Site 3"
+        nome3="Brasil Escola"
       />
     </div>
   );
