@@ -11,6 +11,7 @@ function Pagina4() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
+  const [curtidas, setCurtidas] = useState(0); // NOVO
 
   const imagens = [
     Guerra1,
@@ -18,6 +19,21 @@ function Pagina4() {
     Guerra3,
     Guerra4
   ];
+// Carregar curtidas do localStorage
+// NOVO
+  useEffect(() => {
+    const curtidaSalva = localStorage.getItem("curtidaContestado");
+    if (curtidaSalva) {
+      setCurtidas(parseInt(curtidaSalva));
+    }
+  }, []);
+
+  const handleCurtir = () => {
+    const novaCurtida = curtidas + 1;
+    setCurtidas(novaCurtida);
+    localStorage.setItem("curtidaContestado", novaCurtida);
+  };
+  // FIM NOVO
 
   useEffect(() => {
     const buscarDado = async () => {
@@ -103,6 +119,14 @@ function Pagina4() {
       </div>
 
       {/*Aqui*/}
+           
+{/* BOTÃO CURTIR */}
+
+      <div className='botaoContainer' >
+            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
+            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
+          </div>
+{/* FIM DO BOTÃO CURTIR */}
 
       <Footer
         link1="https://brasilescola.uol.com.br/historiag/primeira-guerra.htm"
