@@ -40,6 +40,8 @@ function Nav() {
             <li><Link to="/revolucao-de-1930" className="navLink">🔥 Revolução de 1930</Link></li>
             <li><Link to="/sobre-nos" className="navLink">👥 Sobre Nós</Link></li>
             <li><Link to="/ranking" className="navLink">✅ Ranking Das Melhores Páginas</Link></li>
+            <li><Link to="/video-contestado" className="navLink">🎥 Vídeo Sobre Contestado</Link></li>
+
           </ul>
         </div>
       )}
