@@ -1,0 +1,152 @@
+/* Container principal */
+
+.api-section {
+    font-size: 1.05em;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 60px auto;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.7s ease;
+  }
+  
+  .api-section:hover {
+    transform: translateY(-5px);
+
+  }
+
+  [data-theme="dark"] .api-section:hover {
+    background-color: #444444;
+  }
+
+
+[data-theme="light"] .api-section,
+[data-theme="light"]
+[data-theme="light"] #slider,
+[data-theme="light"] .video-section iframe {
+    background-color: #eae3d5;
+    color: #000000;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .api-section,
+[data-theme="dark"] .resumo-texto,
+[data-theme="dark"] #slider,
+[data-theme="dark"] .video-section iframe {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #474747;
+    box-shadow: 2px 5px 10px rgba(90, 89, 89, 0.3);
+}
+
+[data-theme="dark"] .resumo-texto:hover {
+    transform: translateY(-5px);
+    background-color: #444444;
+}
+
+.api-section h1 {
+  margin-bottom: 10px;
+}
+
+.api-section p {
+  line-height: 1.6;
+  margin: 0 auto;
+  text-align: justify;
+  max-width: 80%;
+}
+
+.api-section img {
+  margin: 10px auto;
+  border-radius: 8px;
+  display: block;
+    max-width: 100%;
+}
+
+.api-section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+  
+  /* Bloco com resumo pessoal */
+  .resumo-pessoal {
+    font-size: 1.1em;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .resumo-texto {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 280px;
+    text-align: justify;
+    transition: transform 0.3s ease, background-color 0.7s ease;
+  }
+
+
+
+  
+  /* Carrossel de imagens */
+  #slider {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  
+
+  
+  
+  
+  /* Vídeos lado a lado */
+  .video-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .video-section iframe {
+    width: 500px;      
+    height: 310px;       
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+
+
+  /* flex-grow: 1;
+Diz que o item pode crescer para ocupar o espaço disponível no contêiner flex. Ou seja, se sobra espaço, esse item vai expandir para preencher.
+
+flex-shrink: 1;
+Permite que o item encolha se o espaço disponível for menor que o necessário. Assim, ele pode diminuir para caber.
+
+flex-basis: 0%;
+Define o tamanho inicial do item antes do crescimento ou encolhimento. Com 0%, o tamanho inicial é considerado zero e o espaço será distribuído conforme o crescimento. */
+
+
+/* Responsividade geral para telas menores que 768px */
