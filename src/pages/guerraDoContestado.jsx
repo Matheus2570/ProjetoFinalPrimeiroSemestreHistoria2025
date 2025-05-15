@@ -111,6 +111,8 @@ function Pagina2() {
         ></iframe>
       </div>
 
+      {/*Aqui*/}
+
       <Footer
   link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
   nome1="Site 1"
