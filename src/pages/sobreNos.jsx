@@ -1,4 +1,5 @@
 import './sobreNos.css';
+import grupoImg from '../assets/grupo.png';
 
 function Pagina8() {
     return (
@@ -6,7 +7,7 @@ function Pagina8() {
 
       <main>
         <section className="grupo">
-          <img src="/grupo.jpg" alt="Foto do grupo" className='imgrupo'/>
+        <img src={grupoImg} alt="Foto do grupo" className='imgrupo'/>
           <div className="nomes">
             <p>
               Matheus de Carvalho<br />
