@@ -111,7 +111,15 @@ function Pagina2() {
         ></iframe>
       </div>
 
-      <Footer />
+      <Footer
+  link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
+  nome1="Site 1"
+  link2="https://www.todamateria.com.br/guerra-do-contestado/"
+  nome2="Site 2"
+  link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
+  nome3="Site 3"
+/>
+
     </div>
   );
 }
