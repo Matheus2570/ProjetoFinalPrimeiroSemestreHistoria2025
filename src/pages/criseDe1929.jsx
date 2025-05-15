@@ -6,6 +6,7 @@ import Crise2 from "../assets/criseDe1929_1.jpg";
 import Crise3 from "../assets/criseDe2929_2.jpg";
 import Crise4 from "../assets/criseDe1929_3.jpg";
 import Footer from "../components/footerPaginas.jsx";
+import Curtidas from "../components/botaoCurtir.jsx";
 
 function Pagina6() {
   const [dado, setDado] = useState(null);
@@ -126,7 +127,7 @@ function Pagina6() {
         ></iframe>
       </div>
 
-   
+      <Curtidas chaveLocalStorage="curtidaCriseDe1929" />
 
       <Footer
         link1="https://www.todamateria.com.br/crise-de-1929/"

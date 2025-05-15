@@ -9,6 +9,7 @@ import imgCan5 from '../assets/imagemCan5.jpg'
 import imgCan6 from '../assets/imagemCan6.jpeg'
 import imgCan7 from '../assets/imagemCan7.jpg'
 import Footer from '../components/footerPaginas.jsx';
+import Curtidas from '../components/botaoCurtir.jsx'
 
 function Pagina1() {
   const [dado, setDado] = useState(null);
@@ -112,7 +113,7 @@ function Pagina1() {
         ></iframe>
       </div>
 
-      {/*Aqui*/}
+      <Curtidas chaveLocalStorage="curtidaCanudos" />
 
       <Footer
         link1="https://www.fflch.usp.br/127134"
