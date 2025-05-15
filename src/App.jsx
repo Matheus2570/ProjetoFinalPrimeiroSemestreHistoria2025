@@ -8,6 +8,8 @@ import RevolucaoRussa from "./pages/revolucaoRussa";
 import FascismoItaliano from "./pages/fascismoItaliano";
 import CriseDe1929 from "./pages/criseDe1929";
 import RevolucaoDe1930 from "./pages/revolucaoDe1930";
+import SobreNos from "./pages/sobreNos";
+import Ranking from "./pages/ranking";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/fascismo-italiano" element={<FascismoItaliano />} />
         <Route path="/crise-de-1929" element={<CriseDe1929 />} />
         <Route path="/revolucao-de-1930" element={<RevolucaoDe1930 />} />
+        <Route path="/sobre-nos" element={<SobreNos />} />
+        <Route path="/ranking" element={<Ranking />} />
       </Routes>
     </BrowserRouter>
   );
