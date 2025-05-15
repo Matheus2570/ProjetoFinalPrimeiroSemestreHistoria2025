@@ -1,16 +1,23 @@
 .blocosp1{
     font-size: 150%;
-    
+   border: 0.1rem solid #000000;
+   width: 60%;
 }
 
 .blocosp2{
     font-size: 150%;
+    border: 0.1rem solid #000000;
+    width: 60%;
 }
 
 .blocosp3{
     font-size: 150%;
+    border: 0.1rem solid #000000;
+    width: 60%;
 }
 
 .recadinho{
     font-size: 180%;
+    border: 0.1rem solid #000000;
+    width: 15%;
 }
