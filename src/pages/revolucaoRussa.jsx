@@ -13,6 +13,7 @@ function Pagina4() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
+  const [curtidas, setCurtidas] = useState(0); 
 
   const imagens = [
     RevRussa1,
@@ -22,6 +23,18 @@ function Pagina4() {
     RevRussa5,
     RevRussa6
   ];
+  useEffect(() => {
+    const curtidaSalva = localStorage.getItem("curtidaContestado");
+    if (curtidaSalva) {
+      setCurtidas(parseInt(curtidaSalva));
+    }
+  }, []);
+
+  const handleCurtir = () => {
+    const novaCurtida = curtidas + 1;
+    setCurtidas(novaCurtida);
+    localStorage.setItem("curtidaContestado", novaCurtida);
+  };
 
   useEffect(() => {
     const buscarDado = async () => {
@@ -102,10 +115,13 @@ function Pagina4() {
       <div className="video-section">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/YHNd8-Tha-E?si=cBJPLmvN7ngCPami" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/q8JonuN9Hk8?si=NTaNjW919J8dUdjK&amp;controls=0&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3-0ZcoHFtXY?si=fgCDxA_e2DkK9Ch0&amp;controls=0&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
-      {/*Aqui*/}
+       <div className='botaoContainer' >
+            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
+            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
+        </div>
 
       <Footer
   link1="https://youtu.be/r_1xj0Pyi-8?feature=shared"
