@@ -1,4 +1,4 @@
-import './footerPaginas.css';
+import './footerSemFonte.css';
 
 function FooterPaginas() {
   return (
