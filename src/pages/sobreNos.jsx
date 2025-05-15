@@ -1,5 +1,5 @@
 import './sobreNos.css';
-import grupoImg from '../assets/grupo.jpg';
+import grupoImg from '../assets/grupo.png';
 
 function Pagina8() {
     return (
