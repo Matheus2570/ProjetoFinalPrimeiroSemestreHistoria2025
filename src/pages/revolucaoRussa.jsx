@@ -125,11 +125,11 @@ function Pagina4() {
 
       <Footer
   link1="https://youtu.be/r_1xj0Pyi-8?feature=shared"
-  nome1="Site 1"
+  nome1="Youtube- A Revolução Russa e Suas Consequências"
   link2="https://brasilescola.uol.com.br/historiag/revolucao-russa.htm"
-  nome2="Site 2"
+  nome2="Brasil Escola - Revolução Russa"
   link3="https://www.todamateria.com.br/revolucao-russa/"
-  nome3="Site 3"
+  nome3="Toda Matéria - Revolução Russa"
 />
 
     </div>
