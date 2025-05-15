@@ -117,11 +117,11 @@ function Pagina1() {
 
       <Footer
         link1="https://www.fflch.usp.br/127134"
-        nome1="Faculdade de Filosofia, Letras e Ciências Humanas"
+        nome1="Faculdade de Filosofia, Letras e Ciências Humanas da USP - Guerra de Canudos" 
         link2="https://museudarepublica.museus.gov.br/wp-content/uploads/2017/10/CronoCanudos.pdf"
-        nome2="Museu da República"
+        nome2="Museu da República - Cronologia da Guerra de Canudos"
         link3="https://atlas.fgv.br/verbetes/guerra-de-canudos"
-        nome3="Atlas da História do Brasil"
+        nome3="Atlas da História do Brasil - Guerra de Canudos"
       />
 
     </div>

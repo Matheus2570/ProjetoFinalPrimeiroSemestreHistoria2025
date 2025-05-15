@@ -123,11 +123,11 @@ function Pagina2() {
 
       <Footer
   link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
-  nome1="Brasil Escola"
+  nome1="Brasil Escola - Guerra do Contestado"
   link2="https://www.todamateria.com.br/guerra-do-contestado/"
-  nome2="Todo Matéria"
+  nome2="Todo Matéria - Guerra do Contestado"
   link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
-  nome3="Mundo Educação"
+  nome3="Mundo Educação - Guerra do Contestado"
 />
 
     </div>

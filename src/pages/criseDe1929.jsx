@@ -113,14 +113,14 @@ function Pagina6() {
       {/* Bloco com os dois vídeos */}
       <div className="video-section">
         <iframe
-          src="https://www.youtube.com/embed/TTq6yzDH4gM?si=DN3z-Oi8-YmxxQFE"
+          src="https://www.youtube.com/embed/PuXyboguY5c?si=yR8Tkc1-DdeBGB9T"
           title="Vídeo 1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
 
         <iframe
-          src="https://www.youtube.com/embed/V5VXxyn6G24?si=8Pv7Dzl3vVRleVOu"
+          src="https://www.youtube.com/embed/V5VXxyn6G24?si=87M8KsyeR5oFfHa3"
           title="Vídeo 2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -131,11 +131,11 @@ function Pagina6() {
 
       <Footer
         link1="https://www.todamateria.com.br/crise-de-1929/"
-        nome1="Toda Matéria"
+        nome1="Toda Matéria - Crise de 1929"
         link2="https://www.historiadomundo.com.br/idade-contemporanea/crisede29.htm"
-        nome2="História do Mundo"
+        nome2="História do Mundo - Crise de 1929"
         link3="https://brasilescola.uol.com.br/historiag/crise29.htm"
-        nome3="Brasil Escola"
+        nome3="Brasil Escola - Crise de 1929"
       />
     </div>
   );

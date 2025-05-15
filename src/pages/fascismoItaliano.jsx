@@ -4,12 +4,14 @@ import './cssPaginasGlobais.css';
 import FascismoItaliano from '../assets/FascismoItaliano.jpg';
 import fascismoItaliano from '../assets/fascismoitaliano.webp';
 import Fascismoitalianoo from '../assets/Fascismoitalianoo.png';
+import Curtidas from '../components/botaoCurtir.jsx';
+import Footer from '../components/footerPaginas.jsx';
 
 function Pagina5() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
-  const [curtidas, setCurtidas] = useState(0); // NOVO
+ 
 
   const imagens = [
     FascismoItaliano,
@@ -19,20 +21,7 @@ function Pagina5() {
   ];
 
 // Carregar curtidas do localStorage
-// NOVO
-  useEffect(() => {
-    const curtidaSalva = localStorage.getItem("curtidaFascismo");
-    if (curtidaSalva) {
-      setCurtidas(parseInt(curtidaSalva));
-    }
-  }, []);
 
-  const handleCurtir = () => {
-    const novaCurtida = curtidas + 1;
-    setCurtidas(novaCurtida);
-    localStorage.setItem("curtidaFascismo", novaCurtida);
-  };
-  // FIM NOVO
 
   useEffect(() => {
     const buscarDado = async () => {
@@ -115,14 +104,14 @@ function Pagina5() {
       {/* Bloco com os dois vídeos */}
       <div className="video-section">
         <iframe
-          src=" https://www.youtube.com/watch?v=2MMKqI9qzXU"
+          src=" https://www.youtube.com/embed/1crIvDB7Ios?si=JEolMMKiGiYE51fl"
           title="Vídeo 1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
 
         <iframe
-          src="https://youtu.be/2MMKqI9qzXU?si=cDf_Bdvv4nQ7bPYt"
+          src="https://www.youtube.com/embed/2MMKqI9qzXU?si=R5XXnDxYvysc7Md1"
           title="Vídeo 2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -130,21 +119,15 @@ function Pagina5() {
       </div>
 
       
-{/* BOTÃO CURTIR */}
-
-      <div className='botaoContainer' >
-            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
-            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
-          </div>
-{/* FIM DO BOTÃO CURTIR */}
+      <Curtidas chaveLocalStorage="curtidaFascismo" />
 
       <Footer
-  link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
-  nome1="Site 1"
-  link2="https://www.todamateria.com.br/guerra-do-contestado/"
-  nome2="Site 2"
-  link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
-  nome3="Site 3"
+  link1="https://brasilescola.uol.com.br/historiag/fascismo.htm"
+  nome1="Brasil Escola - Fascismo Italiano"
+  link2="https://www.todamateria.com.br/fascismo-na-italia/"
+  nome2="Toda Matéria - Fascismo Italiano"
+  link3="https://www.bbc.com/portuguese/articles/c0dd9d2l9wvo"
+  nome3="BBC - Fascismo Italiano"
 />
 
     </div>
