@@ -65,7 +65,7 @@ function Pagina6() {
         </div>
       )}
 
-      {/* Bloco com resumo + carrossel */}
+      {/* Bloco com resumo e carrossel */}
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Crise de 1929</h2>
@@ -126,7 +126,7 @@ function Pagina6() {
         ></iframe>
       </div>
 
-      {/*Aqui*/}
+   
 
       <Footer
         link1="https://www.todamateria.com.br/crise-de-1929/"
