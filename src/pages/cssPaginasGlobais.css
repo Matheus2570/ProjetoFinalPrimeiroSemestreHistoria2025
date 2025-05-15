@@ -149,4 +149,25 @@ flex-basis: 0%;
 Define o tamanho inicial do item antes do crescimento ou encolhimento. Com 0%, o tamanho inicial é considerado zero e o espaço será distribuído conforme o crescimento. */
 
 
-/* Responsividade geral para telas menores que 768px */
+/* NOVO */
+
+.botaoContainer{
+  text-align: center;
+margin-top: 2%;
+margin-bottom: 3%;
+}
+
+.botaoCurtir{
+  width: 7%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.botaoCurtir:hover {
+  background-color: #0056b3;
+}
+

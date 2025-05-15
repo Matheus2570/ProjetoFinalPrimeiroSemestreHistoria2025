@@ -11,6 +11,7 @@ function Pagina2() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
+  const [curtidas, setCurtidas] = useState(0); // NOVO
 
   const imagens = [
     Contestado1,
@@ -18,6 +19,23 @@ function Pagina2() {
     Contestado3,
     Contestado4
   ];
+
+
+// Carregar curtidas do localStorage
+// NOVO
+  useEffect(() => {
+    const curtidaSalva = localStorage.getItem("curtidaContestado");
+    if (curtidaSalva) {
+      setCurtidas(parseInt(curtidaSalva));
+    }
+  }, []);
+
+  const handleCurtir = () => {
+    const novaCurtida = curtidas + 1;
+    setCurtidas(novaCurtida);
+    localStorage.setItem("curtidaContestado", novaCurtida);
+  };
+  // FIM NOVO
 
   useEffect(() => {
     const buscarDado = async () => {
@@ -63,6 +81,9 @@ function Pagina2() {
           </a>
         </div>
       )}
+
+
+     
 
       {/* Bloco com resumo + carrossel */}
       <div className="resumo-pessoal">
@@ -111,7 +132,14 @@ function Pagina2() {
         ></iframe>
       </div>
 
-      {/*Aqui*/}
+      
+{/* BOTÃO CURTIR */}
+
+      <div className='botaoContainer' >
+            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
+            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
+          </div>
+{/* FIM DO BOTÃO CURTIR */}
 
       <Footer
   link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
