@@ -1,6 +1,7 @@
 .navBar {
+  
   padding: 1%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px #534d43;
   position: relative;
   z-index: 20;
 }
@@ -64,12 +65,12 @@
 }
 
 [data-theme="dark"] .navBar {
-  background-color: #332f28;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.12);
+  background-color: #2f2825;
+  box-shadow: 0 4px 8px #75736f;
 }
 
 [data-theme="light"] .navBar {
-  background-color: #cabda7;
+  background-color: #D2C3A5;
 }
 
 .menu-opcoes ul {

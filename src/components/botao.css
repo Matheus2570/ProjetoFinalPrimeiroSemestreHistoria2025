@@ -1,21 +1,21 @@
 body {
-  background-color: #fef9f1;
+  background-color: #FFFBF3;
   color: #1f1f1f;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 /* Tema escuro ativado */
 [data-theme="dark"] body {
-  background-color: #0e0e0e;
+  background-color: #000000;
   color: #f1f1f1;
 }
 
 [data-theme="dark"] a {
-  color: #f1f1f1;
+  color: #ffffff;
 }
 
 [data-theme="light"] a {
-  color: #333333;
+  color: #000000;
 }
 
 /* Botão de tema */
