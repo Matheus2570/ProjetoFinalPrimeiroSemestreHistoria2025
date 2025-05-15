@@ -1,14 +1,18 @@
 /* Container principal */
 
 .api-section {
-    font-size: 1.05em;
-    width: 60%;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 60px auto;
-    text-align: center;
-    transition: transform 0.3s ease, background-color 0.7s ease;
-  }
+  font-size: 1.05em;
+  width: fit-content;
+  max-width: 55%;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 60px auto;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.7s ease;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
   
   .api-section:hover {
     transform: translateY(-5px);
@@ -151,3 +155,11 @@ Define o tamanho inicial do item antes do crescimento ou encolhimento. Com 0%, o
 
 /* NOVO */
 
+@media (max-width: 768px) {
+  
+}
+
+/* Para telas com largura de até 400px */
+@media (max-width: 480px) {
+  
+}

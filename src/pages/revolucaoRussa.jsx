@@ -8,12 +8,13 @@ import RevRussa4 from '../assets/revolucaorussa4.png';
 import RevRussa5 from '../assets/revolucaorussa5.png';
 import RevRussa6 from '../assets/revolucaorussa6.png';
 import Footer from  '../components/footerPaginas.jsx';
+import Curtidas from '../components/botaoCurtir.jsx';
 
 function Pagina4() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
-  const [curtidas, setCurtidas] = useState(0); 
+
 
   const imagens = [
     RevRussa1,
@@ -23,23 +24,11 @@ function Pagina4() {
     RevRussa5,
     RevRussa6
   ];
-  useEffect(() => {
-    const curtidaSalva = localStorage.getItem("curtidaContestado");
-    if (curtidaSalva) {
-      setCurtidas(parseInt(curtidaSalva));
-    }
-  }, []);
-
-  const handleCurtir = () => {
-    const novaCurtida = curtidas + 1;
-    setCurtidas(novaCurtida);
-    localStorage.setItem("curtidaContestado", novaCurtida);
-  };
-
+ 
   useEffect(() => {
     const buscarDado = async () => {
       try {
-        const dadoLocal = localStorage.getItem("revoluçãoRussa");
+        const dadoLocal = localStorage.getItem("revolucaoRussa");
         if (dadoLocal) {
           setDado(JSON.parse(dadoLocal));
           setLoading(false);
@@ -50,7 +39,7 @@ function Pagina4() {
           `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent("Revolução Russa")}`
         );
         const resultado = await res.json();
-        localStorage.setItem("revoluçãoRussa", JSON.stringify(resultado));
+        localStorage.setItem("revolucaoRussa", JSON.stringify(resultado));
         setDado(resultado);
       } catch (erro) {
         setErro("Erro ao buscar dados.");
@@ -118,10 +107,8 @@ function Pagina4() {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3-0ZcoHFtXY?si=fgCDxA_e2DkK9Ch0&amp;controls=0&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
-       <div className='botaoContainer' >
-            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
-            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
-        </div>
+      
+        <Curtidas chaveLocalStorage="curtidaRevolucaoRussa" />
 
       <Footer
   link1="https://youtu.be/r_1xj0Pyi-8?feature=shared"

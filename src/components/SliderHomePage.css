@@ -1,6 +1,8 @@
 #slider1 {
-  width: 100%;              /* Aumenta a largura */
-  height: 77vh;            /* Aumenta a altura */
+  margin-top: 2%;
+  border-radius: 10px;
+  width: 70%;              /* Aumenta a largura */
+  height: 60vh;            /* Aumenta a altura */
   overflow: hidden;
   position: relative;      /* Bordas mais suaves */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);      

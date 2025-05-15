@@ -14,7 +14,7 @@ function SliderHomePage(props) {
   useEffect(() => {
     const intervalo = setInterval(() => {
       proximo();
-    }, 5000);
+    }, 1000);
 
     return () => clearInterval(intervalo); // Limpa o intervalo ao desmontar
   }, [imagemAtual]); // Garante que o carrossel continue ciclando

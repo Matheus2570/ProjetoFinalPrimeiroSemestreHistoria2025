@@ -28,7 +28,6 @@ function App() {
         <Route path="/sobre-nos" element={<SobreNos />} />
         <Route path="/ranking" element={<Ranking />} />
         <Route path="/video-contestado" element={<VideoContestado />} />
-
       </Routes>
     </BrowserRouter>
   );

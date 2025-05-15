@@ -27,7 +27,7 @@ function Pagina2() {
   useEffect(() => {
     const buscarDado = async () => {
       try {
-        const dadoLocal = localStorage.getItem("guerraDeContestado");
+        const dadoLocal = localStorage.getItem("guerraDoContestado");
         if (dadoLocal) {
           setDado(JSON.parse(dadoLocal));
           setLoading(false);
@@ -38,7 +38,7 @@ function Pagina2() {
           `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent("Guerra do Contestado")}`
         );
         const resultado = await res.json();
-        localStorage.setItem("guerraDeContestado", JSON.stringify(resultado));
+        localStorage.setItem("guerraDoContestado", JSON.stringify(resultado));
         setDado(resultado);
       } catch (erro) {
         setErro("Erro ao buscar dados.");
