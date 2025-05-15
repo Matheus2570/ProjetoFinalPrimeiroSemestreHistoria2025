@@ -98,14 +98,14 @@ function Pagina1() {
       {/* Bloco com os dois vídeos */}
       <div className="video-section">
         <iframe
-          src="https://www.youtube.com/watch?v=amMoyyq0ZEY"
+          src="https://www.youtube.com/embed/UCicCcFJPns?si=uMcOhCWEBXm3fPFx"
           title="Vídeo 1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
 
         <iframe
-          src="https://youtu.be/69MTadaKjWk?si=-v2e6v-OtaNQSpal"
+          src="https://www.youtube.com/embed/f4DT0-gvs6c?si=Bcguh_WSBBjNGO4X"
           title="Vídeo 2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -115,12 +115,12 @@ function Pagina1() {
       {/*Aqui*/}
 
       <Footer
-        link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
-        nome1="Site 1"
-        link2="https://www.todamateria.com.br/guerra-do-contestado/"
-        nome2="Site 2"
-        link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
-        nome3="Site 3"
+        link1="https://www.fflch.usp.br/127134"
+        nome1="Faculdade de Filosofia, Letras e Ciências Humanas"
+        link2="https://museudarepublica.museus.gov.br/wp-content/uploads/2017/10/CronoCanudos.pdf"
+        nome2="Museu da República"
+        link3="https://atlas.fgv.br/verbetes/guerra-de-canudos"
+        nome3="Atlas da História do Brasil"
       />
 
     </div>
