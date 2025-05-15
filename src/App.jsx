@@ -10,6 +10,7 @@ import CriseDe1929 from "./pages/criseDe1929";
 import RevolucaoDe1930 from "./pages/revolucaoDe1930";
 import SobreNos from "./pages/sobreNos";
 import Ranking from "./pages/ranking";
+import VideoContestado from "./pages/videoContestado";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Route path="/revolucao-de-1930" element={<RevolucaoDe1930 />} />
         <Route path="/sobre-nos" element={<SobreNos />} />
         <Route path="/ranking" element={<Ranking />} />
+        <Route path="/video-contestado" element={<VideoContestado />} />
+
       </Routes>
     </BrowserRouter>
   );
