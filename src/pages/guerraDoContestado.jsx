@@ -6,12 +6,13 @@ import Contestado2 from '../assets/GuerraContestado2.jpg';
 import Contestado3 from '../assets/GuerraContestado3.jpg';
 import Contestado4 from '../assets/GuerraContestado4.jpg';
 import Footer from  '../components/footerPaginas.jsx';
+import Curtidas from '../components/botaoCurtir.jsx'
 
 function Pagina2() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
-  const [curtidas, setCurtidas] = useState(0); // NOVO
+
 
   const imagens = [
     Contestado1,
@@ -21,21 +22,7 @@ function Pagina2() {
   ];
 
 
-// Carregar curtidas do localStorage
-// NOVO
-  useEffect(() => {
-    const curtidaSalva = localStorage.getItem("curtidaContestado");
-    if (curtidaSalva) {
-      setCurtidas(parseInt(curtidaSalva));
-    }
-  }, []);
 
-  const handleCurtir = () => {
-    const novaCurtida = curtidas + 1;
-    setCurtidas(novaCurtida);
-    localStorage.setItem("curtidaContestado", novaCurtida);
-  };
-  // FIM NOVO
 
   useEffect(() => {
     const buscarDado = async () => {
@@ -132,22 +119,15 @@ function Pagina2() {
         ></iframe>
       </div>
 
-      
-{/* BOTÃO CURTIR */}
-
-      <div className='botaoContainer' >
-            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
-            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
-          </div>
-{/* FIM DO BOTÃO CURTIR */}
+      <Curtidas chaveLocalStorage="curtidaContestado" />
 
       <Footer
   link1="https://brasilescola.uol.com.br/historiab/guerra-contestado.htm"
-  nome1="Site 1"
+  nome1="Brasil Escola"
   link2="https://www.todamateria.com.br/guerra-do-contestado/"
-  nome2="Site 2"
+  nome2="Todo Matéria"
   link3="https://mundoeducacao.uol.com.br/historiadobrasil/guerra-contestado-messianismo.htm"
-  nome3="Site 3"
+  nome3="Mundo Educação"
 />
 
     </div>
