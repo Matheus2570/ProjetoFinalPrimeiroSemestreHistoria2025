@@ -129,11 +129,11 @@ Em outubro de 1930, as tropas revolucionárias iniciaram levantes em diversos es
 
       <Footer
         link1="https://mundoeducacao.uol.com.br/historiadobrasil/revolucao-1930.htm#:~:text=1930.%5B1%5D-,A%20Revolu%C3%A7%C3%A3o%20de%201930%20foi%20um%20movimento%20armado%2C%20liderado%20pelo,ga%C3%BAcho%20como%20l%C3%ADder%20de%20Estado."
-        nome1="Site 1"
+        nome1="Mundo Educação - Revolução de 1930"
         link2="https://www.todamateria.com.br/revolucao-de-1930/"
-        nome2="Site 2"
+        nome2="Toda Matéria - Revolução de 1930"
         link3="https://brasilescola.uol.com.br/o-que-e/historia/o-que-foi-revolucao-1930.htm"
-        nome3="Site 3"
+      nome3="Brasil Escola - Revolução de 1930"
       />
 
     </div>

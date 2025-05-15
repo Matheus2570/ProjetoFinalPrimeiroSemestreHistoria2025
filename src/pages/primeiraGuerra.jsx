@@ -130,11 +130,11 @@ function Pagina4() {
 
       <Footer
         link1="https://brasilescola.uol.com.br/historiag/primeira-guerra.htm"
-        nome1="Site 1"
+        nome1="Brasil Escola - Primeira Guerra Mundial"
         link2="https://www.todamateria.com.br/primeira-guerra-mundial/"
-        nome2="Site 2"
+        nome2="Toda Matéria - Primeira Guerra Mundial"
         link3="https://mundoeducacao.uol.com.br/historiageral/primeira-guerra-mundial.htm"
-        nome3="Site 3"
+        nome3="Mundo Educação - Primeira Guerra Mundial"
       />
 
     </div>
