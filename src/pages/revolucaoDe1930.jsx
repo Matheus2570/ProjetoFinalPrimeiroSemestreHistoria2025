@@ -6,13 +6,14 @@ import Revolucao2 from '../assets/Revolucao1930(2).png';
 import Revolucao3 from '../assets/Revolucao1930(3).png';
 import Revolucao4 from '../assets/Revolucao1930(4).png';
 import Footer from '../components/footerPaginas.jsx';
+import Curtidas from '../components/botaoCurtir.jsx';
 
 
 function Pagina8() {
   const [dado, setDado] = useState(null);
   const [erro, setErro] = useState('');
   const [loading, setLoading] = useState(true);
-  const [curtidas, setCurtidas] = useState(0); // NOVO
+
 
   const imagens = [
     Revolucao1,
@@ -21,20 +22,7 @@ function Pagina8() {
     Revolucao4
   ];
   // Carregar curtidas do localStorage
-// NOVO
-  useEffect(() => {
-    const curtidaSalva = localStorage.getItem("curtidaContestado");
-    if (curtidaSalva) {
-      setCurtidas(parseInt(curtidaSalva));
-    }
-  }, []);
 
-  const handleCurtir = () => {
-    const novaCurtida = curtidas + 1;
-    setCurtidas(novaCurtida);
-    localStorage.setItem("curtidaContestado", novaCurtida);
-  };
-  // FIM NOVO
 
 
   useEffect(() => {
@@ -117,15 +105,7 @@ Em outubro de 1930, as tropas revolucionárias iniciaram levantes em diversos es
          allowfullscreen></iframe>
       </div>
 
-      {/*Aqui*/}
-           
-{/* BOTÃO CURTIR */}
-
-      <div className='botaoContainer' >
-            <button className='botaoCurtir' onClick={handleCurtir}>👍 Curtir</button>
-            <span style={{ marginLeft: "10px" }}>{curtidas} curtidas</span>
-          </div>
-{/* FIM DO BOTÃO CURTIR */}
+      <Curtidas chaveLocalStorage="curtidaRevolucao1930" />
 
       <Footer
         link1="https://mundoeducacao.uol.com.br/historiadobrasil/revolucao-1930.htm#:~:text=1930.%5B1%5D-,A%20Revolu%C3%A7%C3%A3o%20de%201930%20foi%20um%20movimento%20armado%2C%20liderado%20pelo,ga%C3%BAcho%20como%20l%C3%ADder%20de%20Estado."
