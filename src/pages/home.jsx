@@ -1,8 +1,8 @@
 import "./home.css";
 import Footer from '../components/footerSemFonte'
-import imgCan1 from '../assets/imagemCan1.jfif'
+import imgCan1 from '../assets/imagemCan1.jpg'
 import imgCan2 from '../assets/imagemCan2.jpg'
-import imgCan3 from '../assets/imagemCan3.webp'
+import imgCan3 from '../assets/imagemCan3.jpg'
 import SliderHome from '../components/sliderHomePage';
 function Home() {
   const imagens = [

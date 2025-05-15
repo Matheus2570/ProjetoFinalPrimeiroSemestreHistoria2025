@@ -28,7 +28,7 @@ function Pagina6() {
           `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent("Crise de 1929")}`
         );
         const resultado = await res.json();
-        localStorage.setItem("guerraDeContestado", JSON.stringify(resultado));
+        localStorage.setItem("criseDe1929", JSON.stringify(resultado));
         setDado(resultado);
       } catch (erro) {
         setErro("Erro ao buscar dados.");

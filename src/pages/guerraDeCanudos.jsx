@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import SliderHome from '../components/sliderPaginas';
 import './cssPaginasGlobais.css';
-import imgCan1 from '../assets/imagemCan1.jfif'
+import imgCan1 from '../assets/imagemCan1.jpg'
 import imgCan2 from '../assets/imagemCan2.jpg'
-import imgCan3 from '../assets/imagemCan3.webp'
+import imgCan3 from '../assets/imagemCan3.jpg'
 import imgCan4 from '../assets/imagemCan4.jpg'
-import imgCan5 from '../assets/imagemCan5.jfif'
+import imgCan5 from '../assets/imagemCan5.jpg'
 import imgCan6 from '../assets/imagemCan6.jpeg'
-import imgCan7 from '../assets/imagemCan7.jfif'
+import imgCan7 from '../assets/imagemCan7.jpg'
 import Footer from '../components/footerPaginas.jsx';
 
 function Pagina1() {
