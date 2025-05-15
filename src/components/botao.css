@@ -1,45 +1,48 @@
 body {
-    background-color: white;
-    color: black;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    font-family: Arial, sans-serif;
-  }
-  
-  [data-theme="dark"] body {
-    background-color: black;
-    color: white;
-  }
-  
-  [data-theme="dark"] a {
-    color: white; 
-  }
-  
-  [data-theme="light"] a {
-    color: black; 
-  }
-  
+  background-color: #fef9f1;
+  color: #1f1f1f;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
 
-  
+/* Tema escuro ativado */
+[data-theme="dark"] body {
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+}
+
+[data-theme="dark"] a {
+  color: #f1f1f1;
+}
+
+[data-theme="light"] a {
+  color: #333333;
+}
+
+/* Botão de tema */
+.botao-tema {
+  border-radius: 50%;
+  font-size: 1.8vw;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+
+
+/* Responsividade para o botão em telas menores */
+@media (max-width: 768px) {
   .botao-tema {
-    border-radius: 50%;
-    font-size: 1.5vw;
-    background: none;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-    position: fixed;
-    top: 25px;
-    right: 25px;
-    padding: 10px;
-    transition: color 0.3s, box-shadow 0.3s;
+      font-size: 2rem; /* Aumentei o tamanho do botão para dispositivos menores */
+      padding: 18px; /* Aumentei o padding para melhorar a interação */
   }
-  
-  
+}
 
-  
-
-  [data-theme="dark"] .navBar {
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Sombra clara para containers no tema escuro */
+@media (max-width: 480px) {
+  .botao-tema {
+      font-size: 1.6rem; /* Tamanho maior para telas menores */
+      padding: 20px; /* Aumentei o padding para melhorar a usabilidade */
   }
-  
-
+}

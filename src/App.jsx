@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Nav from "./components/navBarra";
 import Home from "./pages/home";
 import GuerraDeCanudos from "./pages/guerraDeCanudos";
 import GuerraDoContestado from "./pages/guerraDoContestado";
@@ -5,7 +7,7 @@ import PrimeiraGuerra from "./pages/primeiraGuerra";
 import RevolucaoRussa from "./pages/revolucaoRussa";
 import FascismoItaliano from "./pages/fascismoItaliano";
 import CriseDe1929 from "./pages/criseDe1929";
-import RevolucaoDe1930 from "./pages/np";
+import RevolucaoDe1930 from "./pages/revolucaoDe1930";
 
 function App() {
   return (
@@ -24,3 +26,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
+export default App;

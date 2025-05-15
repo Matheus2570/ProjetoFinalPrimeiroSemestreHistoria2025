@@ -1,37 +1,175 @@
 .navBar {
-    padding: 1%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 20;
 }
 
-.navLista {
+.navTopo {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 5%; 
+}
+
+.tituloComBotao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tituloSite {
+  margin: 0;
+  font-size: 2.6em;
+ 
+}
+
+
+/* Ícone de 3 barrinhas */
+.bx-menu,
+.bx-menu-alt-right {
+    font-size: 2.5em;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+
+
+/* Menu suspenso */
+.menu-opcoes {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  background-color: #ffffff;
+  color: #2b2b2b;
+  padding: 10px;
+  width: 225px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="dark"] .menu-opcoes {
+  background-color: rgba(31, 31, 31, 0.9);
+  color: #dcdcdc;
+  box-shadow: 2px 5px 10px rgba(90, 89, 89, 0.3);
+}
+
+[data-theme="light"] .menu-opcoes {
+  background-color: #ffffff;
+  color: #2b2b2b;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="dark"] .navBar {
+  background-color: #332f28;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="light"] .navBar {
+  background-color: #cabda7;
+}
+
+.menu-opcoes ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+    padding: 0;
+    margin: 0;
 }
 
-.navItem {
-    font-size: 1.4em;
-    font-weight: bold;
+.menu-opcoes ul li {
+    padding: 10px;
+    cursor: pointer;
 }
 
-.navItem:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out;
+.menu-opcoes a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: transform 0.2s ease, background-color 0.3s, color 0.3s;
 }
 
-.navLink {
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    transition: all 0.5s ease-in-out;
+.menu-opcoes a:hover {
+  transform: translateY(-2px);
 }
 
-.navLink:hover {
-    /* Cor de fundo leve para hover (pode ser controlada depois por tema) */
-    filter: brightness(0.95); /* efeito visual sem definir cor */
+[data-theme="light"] .menu-opcoes a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: black;
 }
 
+[data-theme="dark"] .menu-opcoes a:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+}
 
+/* Responsividade */
 
+/* Ajustes para telas menores (até 768px) */
+@media (max-width: 768px) {    
+    .navTopo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tituloSite {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .teste {
+        margin-left: 0;
+    }
+
+    /* Ícone de menu (hamburguer) */
+    .bx-menu {
+        font-size: 2.5em;
+    }
+
+    /* Menu suspenso */
+    .menu-opcoes {
+        right: 0;
+        width: 100%;
+        top: 70px;
+        display: none; /* Menu escondido por padrão */
+    }
+
+    /* Para mostrar o menu no hover e com classe aberto */
+    .navBar:hover .menu-opcoes,
+    .menu-opcoes.aberto {
+        display: block; /* Exibe o menu ao passar o mouse */
+    }
+
+    .menu-opcoes a {
+        padding: 12px; /* Aumentei o padding dos links do menu */
+    }
+}
+
+/* Ajustes para telas muito pequenas (ex. smartphones menores) */
+@media (max-width: 480px) {
+    .navTopo {
+        padding: 0 10px;
+    }
+
+    .tituloSite {
+        font-size: 1.8em;
+    }
+
+    .bx-menu {
+        font-size: 2.2em;
+    }
+
+    .menu-opcoes {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .menu-opcoes a {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
