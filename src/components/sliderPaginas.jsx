@@ -31,7 +31,7 @@ function SliderHome(props) {
           />
         ))}
         
-          &lt;
+
       
       </div>
     </div>

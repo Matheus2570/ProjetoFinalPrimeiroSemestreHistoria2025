@@ -3,7 +3,7 @@ import Footer from '../components/footerSemFonte'
 import imgCan1 from '../assets/imagemCan1.jfif'
 import imgCan2 from '../assets/imagemCan2.jpg'
 import imgCan3 from '../assets/imagemCan3.webp'
-import SliderHome from '../components/sliderPaginas';
+import SliderHome from '../components/sliderHomePage';
 function Home() {
   const imagens = [
       imgCan1,

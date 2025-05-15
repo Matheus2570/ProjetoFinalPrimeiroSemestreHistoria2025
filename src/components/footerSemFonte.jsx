@@ -1,21 +1,41 @@
-import './footerSemFonte.css';
+import "./footerSemFonte.css";
 
-function FooterPaginas() {
+function FooterSemFonte() {
   return (
-    <footer className="footer">
-      <div className="footer-container">
-
-        <div className="footer-contact">
-          <div className="contact-item">
-            <strong>Email:</strong> contato@exemplo.com
+    <>
+      <footer className="Footer">
+        
+       
+        <div className="Bloco3">
+          <div className="BlocoSobreNos">
+            <p>
+              <div class="footer_social">
+                <a href="https://www.instagram.com" target="_blank">
+                  <i className="bx bxl-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                  <i className="bx bxl-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i className="bx bxl-twitter"></i>
+                </a>
+              </div>
+            </p>
+            <p>Nós somos o grupo 5</p>
           </div>
-          <div className="contact-item">
-            <strong>Telefone:</strong> (11) 99999-9999
+          <div className="BlocoReclamacoes">
+            <p>Numero para reclamações: 
+            (19) 9891-24968/ 0800-9875 
+            </p>
+            <p>Numero para feedbacks e dúvidas:
+            (19) 9891-24968/ 0800-9875 
+
+            </p>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 }
 
-export default FooterPaginas;
+export default FooterSemFonte;

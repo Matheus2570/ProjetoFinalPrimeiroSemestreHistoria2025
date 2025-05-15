@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './sliderHomePage.css'; 
 
 function SliderHomePage(props) {
   const { imagens } = props;
@@ -20,7 +21,7 @@ function SliderHomePage(props) {
 
   return (
     <div className="meio">
-      <div id="slider">
+      <div id="slider1">
         {imagens.map((imagem, index) => (
           <img
             key={index}
@@ -31,7 +32,7 @@ function SliderHomePage(props) {
           />
         ))}
         
-          &lt;
+      
       
       </div>
     </div>
