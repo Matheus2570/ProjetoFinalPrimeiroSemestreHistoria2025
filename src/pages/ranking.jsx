@@ -8,6 +8,7 @@ import RevolucaoRussa from '../assets/revolucaorussa4.png';
 import Fascismo from '../assets/fascismoItaliano.png';
 import CriseDe1929 from '../assets/criseDe1929_3.jpg';
 import Revolucao1930 from '../assets/Revolucao1930(2).png';
+import Footer from '../components/footerSemFonte';
 
 const Pagina9 = () => {
   const [curtidas, setCurtidas] = useState([]);
@@ -50,7 +51,9 @@ const Pagina9 = () => {
           <li key={index}>
             <div className="grupo">
               <p className="nomesTexto"><strong>{pagina.titulo}</strong></p>
+              <center>
               <p className="descricao"> <span style={{color: "red"}}>  {pagina.valor} </span>  curtida{pagina.valor !== 1 ? 's' : ''} </p>
+              </center>
               <img
                 src={imagens[pagina.titulo]}
                 alt={pagina.titulo}
@@ -60,6 +63,8 @@ const Pagina9 = () => {
           </li>
         ))}
       </ul>
+
+      <Footer />
     </div>
   );
 };
