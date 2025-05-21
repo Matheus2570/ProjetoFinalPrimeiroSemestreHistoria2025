@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import SliderHome from '../components/sliderPaginas';
 import './cssPaginasGlobais.css';
 import FascismoItaliano from '../assets/FascismoItaliano.jpg';
-import fascismoItaliano from '../assets/fascismoitaliano.png';
+import fascismoItaliano from '../assets/FascismoItaliano2.png';
 import Fascismoitalianoo from '../assets/Fascismoitalianoo.png';
 import Curtidas from '../components/botaoCurtir.jsx';
 import Footer from '../components/footerPaginas.jsx';
