@@ -77,18 +77,26 @@ function Pagina1() {
           <h2>Resumo pessoal – Guerra de Canudos</h2>
           <p><strong>(1896–1897)</strong></p>
 
-      <p>
-        A Guerra de Canudos foi um conflito social e militar que marcou profundamente a história do Brasil no final do século XIX, tendo ocorrido entre 1896 e 1897 no sertão da Bahia, mais especificamente na região de Canudos, um arraial fundado por Antônio Conselheiro, um líder religioso carismático. Este conflito foi resultado direto das tensões sociais e econômicas existentes após a Proclamação da República em 1889, que não trouxe melhorias para as populações mais pobres do sertão nordestino. A seca, a fome, a miséria e o abandono governamental geravam uma grande insatisfação popular, criando um ambiente propício para o surgimento de movimentos messiânicos e comunitários como o de Canudos.
-      </p>
-      <p>
-        Antônio Conselheiro atraiu milhares de seguidores ao pregar uma doutrina religiosa que misturava o catolicismo com uma crítica à República e às mudanças sociais que considerava injustas e imorais. O arraial cresceu rapidamente, chegando a abrigar cerca de 30 mil pessoas, entre sertanejos, ex-escravos e marginalizados que buscavam refúgio naquele espaço autônomo e auto-sustentável, onde a vida era pautada pela religiosidade e pela solidariedade comunitária. Essa independência e a rejeição ao novo regime político geraram desconfiança e medo nas autoridades republicanas, que passaram a enxergar Canudos como uma ameaça à ordem pública.
-      </p>
-      <p>
-        Durante a guerra, o governo enviou quatro expedições militares para destruir o arraial, mas as primeiras três foram derrotadas graças à resistência dos moradores, que conheciam profundamente o território e lutavam com extrema determinação para defender seu modo de vida. A última expedição, maior e mais bem equipada, acabou por esmagar Canudos após meses de combate intenso, promovendo um massacre que dizimou grande parte da população, incluindo mulheres e crianças. A brutalidade dessa repressão chocou intelectuais da época e foi denunciada posteriormente por Euclides da Cunha na obra “Os Sertões”, que documentou as condições precárias e a valentia do povo sertanejo, além de criticar as injustiças sociais e a violência do Estado.
-      </p>
-      <p>
-        A Guerra de Canudos representou não apenas um confronto armado, mas um choque entre dois mundos: o sertão rural, empobrecido e marcado pela religiosidade popular, e a modernidade republicana, autoritária e centralizadora, que buscava impor sua autoridade sobre as regiões periféricas do país. Esse conflito evidenciou a exclusão social, o preconceito contra os sertanejos e a intolerância política e religiosa que marcaram aquele período, deixando um legado importante para a compreensão das desigualdades brasileiras e dos movimentos sociais de resistência.
-      </p>
+     <p>
+  <strong>Introdução ao Conflito</strong><br/>
+  A Guerra de Canudos foi um conflito social e militar que marcou profundamente a história do Brasil no final do século XIX, tendo ocorrido entre 1896 e 1897 no sertão da Bahia, mais especificamente na região de Canudos, um arraial fundado por Antônio Conselheiro, um líder religioso carismático. Este conflito foi resultado direto das tensões sociais e econômicas existentes após a Proclamação da República em 1889, que não trouxe melhorias para as populações mais pobres do sertão nordestino. A seca, a fome, a miséria e o abandono governamental geravam uma grande insatisfação popular, criando um ambiente propício para o surgimento de movimentos messiânicos e comunitários como o de Canudos.
+</p>
+
+<p>
+  <strong>A Liderança de Antônio Conselheiro</strong><br/>
+  Antônio Conselheiro atraiu milhares de seguidores ao pregar uma doutrina religiosa que misturava o catolicismo com uma crítica à República e às mudanças sociais que considerava injustas e imorais. O arraial cresceu rapidamente, chegando a abrigar cerca de 30 mil pessoas, entre sertanejos, ex-escravos e marginalizados que buscavam refúgio naquele espaço autônomo e auto-sustentável, onde a vida era pautada pela religiosidade e pela solidariedade comunitária. Essa independência e a rejeição ao novo regime político geraram desconfiança e medo nas autoridades republicanas, que passaram a enxergar Canudos como uma ameaça à ordem pública.
+</p>
+
+<p>
+  <strong>O Confronto Militar</strong><br/>
+  Durante a guerra, o governo enviou quatro expedições militares para destruir o arraial, mas as primeiras três foram derrotadas graças à resistência dos moradores, que conheciam profundamente o território e lutavam com extrema determinação para defender seu modo de vida. A última expedição, maior e mais bem equipada, acabou por esmagar Canudos após meses de combate intenso, promovendo um massacre que dizimou grande parte da população, incluindo mulheres e crianças. A brutalidade dessa repressão chocou intelectuais da época e foi denunciada posteriormente por Euclides da Cunha na obra “Os Sertões”, que documentou as condições precárias e a valentia do povo sertanejo, além de criticar as injustiças sociais e a violência do Estado.
+</p>
+
+<p>
+  <strong>O Significado Histórico</strong><br/>
+  A Guerra de Canudos representou não apenas um confronto armado, mas um choque entre dois mundos: o sertão rural, empobrecido e marcado pela religiosidade popular, e a modernidade republicana, autoritária e centralizadora, que buscava impor sua autoridade sobre as regiões periféricas do país. Esse conflito evidenciou a exclusão social, o preconceito contra os sertanejos e a intolerância política e religiosa que marcaram aquele período, deixando um legado importante para a compreensão das desigualdades brasileiras e dos movimentos sociais de resistência.
+</p>
+
 
         </div>
 

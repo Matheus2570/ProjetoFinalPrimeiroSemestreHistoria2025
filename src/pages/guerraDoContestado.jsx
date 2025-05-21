@@ -80,17 +80,25 @@ function Pagina2() {
       <p><strong>(1912–1916)</strong></p>
 
 <p>
-        A Guerra do Contestado foi um conflito armado ocorrido entre 1912 e 1916 na região limítrofe entre os estados do Paraná e Santa Catarina, no sul do Brasil. A guerra teve origem em disputas territoriais entre os dois estados, mas seu pano de fundo foi principalmente uma luta social e econômica envolvendo milhares de camponeses, pequenos posseiros e trabalhadores rurais expulsos de suas terras para abrir espaço para a construção da Estrada de Ferro São Paulo-Rio Grande, controlada por empresas estrangeiras, em especial capital americano.
-      </p>
-      <p>
-        Os habitantes da região do Contestado viviam em condições precárias, dependiam da agricultura de subsistência, da extração da erva-mate e da madeira, e eram profundamente ligados às suas terras, que representavam sua sobrevivência e identidade. Com a chegada da ferrovia, muitas famílias foram despejadas de forma violenta, sem receber qualquer indenização, aumentando o sentimento de injustiça e revolta. Além disso, a presença das empresas estrangeiras e a exploração econômica agravaram as tensões, ao mesmo tempo em que o governo federal e os governos estaduais não conseguiam ou não queriam proteger os interesses dos camponeses.
-      </p>
-      <p>
-        O conflito ganhou também um aspecto religioso importante, com o surgimento de líderes messiânicos que incentivavam a resistência armada, prometendo proteção divina e um mundo justo para os seguidores. Isso fez com que a guerra assumisse uma dimensão quase sagrada, com os camponeses organizando guerrilhas e ataques às forças policiais e militares. O governo, por sua vez, reagiu com repressão severa, enviando tropas para combater os revoltosos e esmagar o movimento.
-      </p>
-      <p>
-        A Guerra do Contestado expôs as contradições do Brasil rural da época: a concentração de terras nas mãos de poucos, a exploração econômica por capitais estrangeiros, o abandono das populações rurais pelo Estado e a luta desesperada desses grupos por seus direitos e sobrevivência. Apesar da derrota militar dos revoltosos, o conflito influenciou debates futuros sobre reforma agrária, direitos dos trabalhadores rurais e a intervenção do Estado para promover justiça social no campo.
-      </p>
+  <strong>Origem do Conflito</strong><br />
+  A Guerra do Contestado foi um conflito armado ocorrido entre 1912 e 1916 na região limítrofe entre os estados do Paraná e Santa Catarina, no sul do Brasil. A guerra teve origem em disputas territoriais entre os dois estados, mas seu pano de fundo foi principalmente uma luta social e econômica envolvendo milhares de camponeses, pequenos posseiros e trabalhadores rurais expulsos de suas terras para abrir espaço para a construção da Estrada de Ferro São Paulo-Rio Grande, controlada por empresas estrangeiras, em especial capital americano.
+</p>
+
+<p>
+  <strong>Condições de Vida e Tensões Sociais</strong><br />
+  Os habitantes da região do Contestado viviam em condições precárias, dependiam da agricultura de subsistência, da extração da erva-mate e da madeira, e eram profundamente ligados às suas terras, que representavam sua sobrevivência e identidade. Com a chegada da ferrovia, muitas famílias foram despejadas de forma violenta, sem receber qualquer indenização, aumentando o sentimento de injustiça e revolta. Além disso, a presença das empresas estrangeiras e a exploração econômica agravaram as tensões, ao mesmo tempo em que o governo federal e os governos estaduais não conseguiam ou não queriam proteger os interesses dos camponeses.
+</p>
+
+<p>
+  <strong>Aspectos Religiosos e Confrontos Armados</strong><br />
+  O conflito ganhou também um aspecto religioso importante, com o surgimento de líderes messiânicos que incentivavam a resistência armada, prometendo proteção divina e um mundo justo para os seguidores. Isso fez com que a guerra assumisse uma dimensão quase sagrada, com os camponeses organizando guerrilhas e ataques às forças policiais e militares. O governo, por sua vez, reagiu com repressão severa, enviando tropas para combater os revoltosos e esmagar o movimento.
+</p>
+
+<p>
+  <strong>Consequências e Legado</strong><br />
+  A Guerra do Contestado expôs as contradições do Brasil rural da época: a concentração de terras nas mãos de poucos, a exploração econômica por capitais estrangeiros, o abandono das populações rurais pelo Estado e a luta desesperada desses grupos por seus direitos e sobrevivência. Apesar da derrota militar dos revoltosos, o conflito influenciou debates futuros sobre reforma agrária, direitos dos trabalhadores rurais e a intervenção do Estado para promover justiça social no campo.
+</p>
+
           
         </div>
 

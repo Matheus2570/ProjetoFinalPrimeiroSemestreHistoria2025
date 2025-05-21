@@ -73,18 +73,36 @@ function Pagina6() {
          <>
   <p><strong>(1929–1939)</strong></p>
 
- <p>
-        A Crise de 1929, conhecida como a Grande Depressão, foi um evento de repercussão global que transformou profundamente a economia mundial e os sistemas políticos dos países afetados. Teve início com o colapso da Bolsa de Valores de Nova York, em outubro de 1929, quando o mercado acionário despencou após anos de crescimento especulativo e bolha financeira. Esse crash provocou um efeito dominó que resultou no fechamento de bancos, falência de empresas e desemprego em massa, afetando milhões de pessoas.
-      </p>
-      <p>
-        A década de 1920 foi caracterizada por um crescimento econômico acelerado nos Estados Unidos e em outras potências, sustentado por consumo elevado, crédito fácil e especulação financeira. No entanto, essa prosperidade era instável, marcada por desigualdades e pelo excesso de produção industrial que superava a demanda real. Quando os investidores perderam confiança, venderam ações em massa, causando o colapso do mercado. O impacto imediato foi o congelamento dos créditos, a queda da produção e o aumento do desemprego para níveis recordes, afetando tanto o setor industrial quanto o agrícola.
-      </p>
-      <p>
-        O efeito da crise espalhou-se rapidamente para a Europa, América Latina e outras regiões, agravando a recessão global e causando crises políticas em vários países. A resposta inicial dos governos foi o protecionismo comercial, que piorou ainda mais a situação ao reduzir o comércio internacional. Nos Estados Unidos, o presidente Franklin D. Roosevelt lançou o New Deal, um conjunto de reformas e políticas públicas para estimular a economia, proteger os trabalhadores e reformar o sistema financeiro, fortalecendo o papel do Estado na economia.
-      </p>
-      <p>
-        A Crise de 1929 teve consequências duradouras, alterando para sempre a relação entre Estado e economia, acelerando o declínio do liberalismo econômico clássico e pavimentando o caminho para regimes autoritários na Europa, como o fascismo e o nazismo, que exploraram o descontentamento popular para ascender ao poder. Além disso, a crise evidenciou a necessidade de mecanismos regulatórios para o mercado financeiro e políticas sociais para proteger os mais vulneráveis.
-      </p>
+<p>
+  <strong>Contexto e Início da Crise</strong><br />
+  A Crise de 1929, também conhecida como a Grande Depressão, foi um dos mais impactantes colapsos econômicos da história moderna, com efeitos devastadores que repercutiram em escala global. Teve início nos Estados Unidos, com a quebra da Bolsa de Valores de Nova York em 24 de outubro de 1929, data que ficou conhecida como a "Quinta-feira Negra". Durante essa semana, os mercados acionários entraram em colapso devido à venda massiva de ações, provocada pelo temor de que os preços estivessem inflacionados artificialmente. Essa quebra pôs fim a uma década de prosperidade aparente, marcada por crescimento especulativo, crédito facilitado e otimismo exagerado no sistema financeiro.
+</p>
+
+<p>
+  <strong>Década de 1920: Prosperidade Frágil</strong><br />
+  A década de 1920, chamada de "Anos Loucos" ou "Roaring Twenties", foi caracterizada por um rápido crescimento econômico, sobretudo nos Estados Unidos, com avanços tecnológicos, aumento do consumo e expansão do crédito. No entanto, essa prosperidade era frágil e desigual, baseada em especulação financeira e superprodução. As indústrias produziam mais do que o mercado podia absorver, gerando estoques excessivos e queda nos preços. Enquanto isso, os trabalhadores, que representavam a maioria da população, não acompanhavam esse ritmo de enriquecimento, criando um desequilíbrio estrutural entre produção e consumo.
+</p>
+
+<p>
+  <strong>Impactos Econômicos e Sociais</strong><br />
+  O colapso da bolsa provocou uma reação em cadeia: bancos faliram em massa por não conseguirem recuperar os empréstimos feitos com base em ações supervalorizadas, empresas fecharam por falta de crédito e consumidores pararam de gastar. O desemprego atingiu níveis alarmantes, com cerca de 25% da força de trabalho norte-americana desocupada em 1933. Milhares de pessoas perderam suas casas, e cidades inteiras mergulharam na pobreza. A crise não se restringiu aos Estados Unidos. Como a economia mundial estava cada vez mais interligada, os efeitos foram sentidos na Europa, na América Latina, na Ásia e em outras regiões, provocando uma recessão global.
+</p>
+
+<p>
+  <strong>Consequências Políticas</strong><br />
+  As consequências políticas da crise foram igualmente severas. Em muitos países europeus, o desemprego em massa e a instabilidade econômica geraram insatisfação popular, que foi explorada por movimentos autoritários. Na Alemanha, a crise enfraqueceu a frágil República de Weimar e facilitou a ascensão de Adolf Hitler e do Partido Nazista ao poder. Na Itália, fortaleceu o regime fascista de Benito Mussolini. Na América Latina, provocou mudanças nos modelos econômicos e o crescimento de governos com propostas nacionalistas e intervencionistas, como o de Getúlio Vargas no Brasil.
+</p>
+
+<p>
+  <strong>Resposta dos Estados Unidos: New Deal</strong><br />
+  Nos Estados Unidos, a resposta governamental inicial foi tímida, mas a partir de 1933, com a posse do presidente Franklin D. Roosevelt, foi implementado o New Deal. Esse conjunto de medidas incluía investimentos públicos em obras de infraestrutura, criação de empregos, regulação do sistema bancário e da bolsa de valores, e programas sociais de apoio a desempregados e agricultores. O New Deal redefiniu o papel do Estado na economia, rompendo com o liberalismo clássico e abrindo caminho para uma nova era de intervenção estatal.
+</p>
+
+<p>
+  <strong>Legado e Lições da Crise</strong><br />
+  A Crise de 1929 deixou lições profundas. Ficou evidente que os mercados não são capazes de se autorregular de forma eficiente em momentos de instabilidade. A necessidade de instituições fortes, políticas públicas inclusivas e sistemas regulatórios se tornou uma das principais conclusões extraídas desse período. Além disso, a crise reforçou a importância do equilíbrio entre crescimento econômico e justiça social, apontando para um novo paradigma na relação entre Estado, mercado e sociedade.
+</p>
+
 </>
 
         </div>

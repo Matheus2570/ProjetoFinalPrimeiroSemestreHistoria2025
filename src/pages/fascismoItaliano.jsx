@@ -77,19 +77,40 @@ function Pagina5() {
           <h2>Resumo pessoal – Fascismo Italiano </h2>
           <>
   <p><strong>(1917 - 1943)</strong></p>
+<p>
+  <strong>Contexto de Surgimento</strong><br />
+  O fascismo italiano foi um movimento político autoritário, ultranacionalista e antidemocrático que surgiu no início do século XX, tendo como principal líder Benito Mussolini. O movimento ganhou força em um momento de grande instabilidade na Itália, especialmente após a Primeira Guerra Mundial. O país enfrentava uma grave crise econômica, com inflação, desemprego e empobrecimento generalizado, além de intensos conflitos sociais marcados por greves e o temor da expansão do socialismo e do comunismo, especialmente após a Revolução Russa de 1917.
+</p>
 
-   <p>
-        O fascismo italiano foi um movimento político autoritário e nacionalista que surgiu no início do século XX, liderado por Benito Mussolini, e que moldou profundamente a Itália entre as décadas de 1920 e 1940. Após a Primeira Guerra Mundial, a Itália vivia uma grave crise econômica, social e política, com desemprego elevado, greves e o medo do avanço do socialismo e do comunismo. Nesse contexto, Mussolini fundou o Partido Nacional Fascista em 1919, prometendo restaurar a ordem, a estabilidade e o orgulho nacional.
-      </p>
-      <p>
-        O fascismo pregava a supremacia do Estado sobre o indivíduo, o culto à autoridade e ao líder, a repressão das oposições políticas e o combate ao socialismo. Mussolini e seus seguidores utilizavam violência paramilitar, propagandas intensas e retórica nacionalista para conquistar apoio popular. Em 1922, com a Marcha sobre Roma, Mussolini pressionou o rei a nomeá-lo Primeiro-Ministro, iniciando a consolidação do regime fascista que aboliu as instituições democráticas, censurou a imprensa e perseguiu opositores.
-      </p>
-      <p>
-        Durante seu governo, Mussolini implementou políticas expansionistas, promovendo a invasão da Etiópia em 1935, buscando restaurar o império romano e colocar a Itália entre as grandes potências mundiais. O fascismo italiano também formou uma aliança estreita com o nazismo alemão, culminando na participação da Itália na Segunda Guerra Mundial ao lado das potências do Eixo. O regime fascista ficou marcado pelo autoritarismo extremo, pela propaganda ideológica e pela repressão brutal, e terminou com a derrota da Itália em 1945 e a morte de Mussolini.
-      </p>
-      <p>
-        O fascismo é um dos exemplos mais estudados de regimes totalitários do século XX, ilustrando como crises econômicas e medos sociais podem ser explorados para a ascensão de governos autoritários, e deixando um legado de violência, intolerância e destruição.
-      </p>
+<p>
+  <strong>Criação do Partido Fascista</strong><br />
+  Nesse cenário de descontentamento e insegurança, Mussolini fundou, em 1919, o Partido Nacional Fascista. O partido prometia restaurar a ordem, garantir a estabilidade política e reviver o orgulho nacional italiano, apelando à população com um discurso agressivo contra a esquerda, contra os liberais e contra o sistema democrático parlamentar. O fascismo pregava a supremacia do Estado sobre o indivíduo, o fim do pluralismo político, a censura à imprensa e a glorificação da figura do líder como salvador da pátria.
+</p>
+
+<p>
+  <strong>Ascensão ao Poder</strong><br />
+  Um dos principais instrumentos do fascismo era a violência organizada, com o uso dos "camisas-negras", milícias paramilitares que atacavam sindicatos, partidos de esquerda e quaisquer opositores do regime. Em 1922, Mussolini liderou a Marcha sobre Roma, uma mobilização simbólica e intimidadora que pressionou o rei Vítor Emanuel III a nomeá-lo Primeiro-Ministro. A partir daí, iniciou-se a construção do Estado fascista, que progressivamente eliminou as instituições democráticas e implantou um regime totalitário, no qual não havia espaço para a dissidência.
+</p>
+
+<p>
+  <strong>Características do Regime</strong><br />
+  O regime de Mussolini centralizou o poder, reprimiu liberdades individuais, perseguiu minorias políticas e utilizou-se de intensa propaganda para manipular a opinião pública. A educação foi militarizada, e a juventude italiana era doutrinada desde cedo nos valores do fascismo. O Estado passou a controlar vários aspectos da vida social e econômica, promovendo a ideia de uma nação forte, unida e subordinada ao líder máximo, chamado de "Duce".
+</p>
+
+<p>
+  <strong>Política Externa e Alianças</strong><br />
+  Em termos de política externa, Mussolini buscava resgatar a glória do antigo Império Romano e expandir o território italiano. Em 1935, invadiu a Etiópia, provocando condenações internacionais. No final da década de 1930, aproximou-se de Adolf Hitler, selando uma aliança entre o fascismo italiano e o nazismo alemão. A Itália entrou na Segunda Guerra Mundial ao lado das potências do Eixo, participando de diversos conflitos e sofrendo severas derrotas militares.
+</p>
+
+<p>
+  <strong>Queda do Regime</strong><br />
+  Com o avanço dos Aliados e a crescente oposição interna, o regime de Mussolini começou a ruir. Em 1943, ele foi deposto e preso, embora tenha sido libertado por forças alemãs e colocado como líder de um governo-fantoche no norte da Itália. Em 1945, ao tentar fugir, Mussolini foi capturado por partisans italianos e executado. O corpo do ditador foi exposto publicamente como símbolo do fim do regime fascista.
+</p>
+
+<p>
+  <strong>Legado e Importância Histórica</strong><br />
+  O fascismo é considerado um dos exemplos mais extremos de regime totalitário do século XX. Seu legado inclui repressão, violência política, intolerância, militarismo e desrespeito aos direitos humanos. O estudo do fascismo continua sendo fundamental para compreender os perigos que ideologias autoritárias representam para a democracia, especialmente em contextos de crise e polarização social.
+</p>
 </>
 
 
