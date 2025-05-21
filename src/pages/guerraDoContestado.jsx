@@ -76,26 +76,21 @@ function Pagina2() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Guerra do Contestado</h2>
-          <p>
-            A Guerra do Contestado foi um conflito que rolou entre 1912 e 1916, na divisa entre o Paraná e Santa Catarina.
-            A região era cheia de madeira e erva-mate, o que causou briga entre os dois estados por causa das terras.
-          </p>
-          <p>
-            Tudo piorou quando uma empresa dos Estados Unidos construiu uma ferrovia no local e tirou muitos posseiros de suas terras.
-            Depois que a obra terminou, muita gente ficou desempregada e sem ter onde morar.
-          </p>
-          <p>
-            No meio disso tudo, surgiu um líder religioso chamado José Maria, que prometia justiça e um novo tempo de paz e igualdade.
-            Ele criou uma comunidade chamada "Quadrado Santo" e ganhou vários seguidores.
-          </p>
-          <p>
-            Mesmo depois da morte de José Maria, os sertanejos continuaram lutando, acreditando que ele ia voltar.
-            O governo mandou tropas, armas e até aviões pra acabar com a resistência.
-          </p>
-          <p>
-            A guerra terminou em 1916, com milhares de mortos. No fim, os estados resolveram a disputa pelas terras,
-            mas o conflito mostrou como o povo do campo era ignorado pelo governo e vivia em situação bem difícil.
-          </p>
+      
+      <p><strong>(1912–1916)</strong></p>
+
+<p>
+        A Guerra do Contestado foi um conflito armado ocorrido entre 1912 e 1916 na região limítrofe entre os estados do Paraná e Santa Catarina, no sul do Brasil. A guerra teve origem em disputas territoriais entre os dois estados, mas seu pano de fundo foi principalmente uma luta social e econômica envolvendo milhares de camponeses, pequenos posseiros e trabalhadores rurais expulsos de suas terras para abrir espaço para a construção da Estrada de Ferro São Paulo-Rio Grande, controlada por empresas estrangeiras, em especial capital americano.
+      </p>
+      <p>
+        Os habitantes da região do Contestado viviam em condições precárias, dependiam da agricultura de subsistência, da extração da erva-mate e da madeira, e eram profundamente ligados às suas terras, que representavam sua sobrevivência e identidade. Com a chegada da ferrovia, muitas famílias foram despejadas de forma violenta, sem receber qualquer indenização, aumentando o sentimento de injustiça e revolta. Além disso, a presença das empresas estrangeiras e a exploração econômica agravaram as tensões, ao mesmo tempo em que o governo federal e os governos estaduais não conseguiam ou não queriam proteger os interesses dos camponeses.
+      </p>
+      <p>
+        O conflito ganhou também um aspecto religioso importante, com o surgimento de líderes messiânicos que incentivavam a resistência armada, prometendo proteção divina e um mundo justo para os seguidores. Isso fez com que a guerra assumisse uma dimensão quase sagrada, com os camponeses organizando guerrilhas e ataques às forças policiais e militares. O governo, por sua vez, reagiu com repressão severa, enviando tropas para combater os revoltosos e esmagar o movimento.
+      </p>
+      <p>
+        A Guerra do Contestado expôs as contradições do Brasil rural da época: a concentração de terras nas mãos de poucos, a exploração econômica por capitais estrangeiros, o abandono das populações rurais pelo Estado e a luta desesperada desses grupos por seus direitos e sobrevivência. Apesar da derrota militar dos revoltosos, o conflito influenciou debates futuros sobre reforma agrária, direitos dos trabalhadores rurais e a intervenção do Estado para promover justiça social no campo.
+      </p>
           
         </div>
 

@@ -70,41 +70,23 @@ function Pagina6() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Crise de 1929</h2>
-          <p>
-            A Crise de 1929 foi um colapso econômico mundial que começou nos EUA
-            com a quebra da Bolsa de Valores de Nova York devido à superprodução
-            industrial, subconsumo da população, especulação excessiva no
-            mercado de ações e políticas econômicas inadequadas.
-          </p>
-          <p>
-            Isso levou a falências de empresas, desemprego em massa e impacto
-            sobre a exportação de café no Brasil. O presidente Franklin D.
-            Roosevelt implementou o New Deal, um plano de recuperação econômica
-            com investimento em obras públicas, programas de assistência social,
-            reforma bancária e estímulo ao emprego.
-          </p>
-          <p>
-            A crise evidenciou as fragilidades do sistema capitalista liberal e
-            levou à adoção de modelos econômicos mais regulados. Seu fim se deu
-            com o New Deal e a entrada dos EUA na Segunda Guerra Mundial,
-            deixando um legado de profundas transformações políticas, sociais e
-            econômicas no século XX.
-          </p>
-          <p>
-            A Crise de 1929 também teve um impacto significativo na política
-            global, contribuindo para o surgimento de regimes autoritários em
-            alguns países. Além disso, a crise levou a uma reavaliação do papel
-            do Estado na economia, com muitos governos adotando políticas
-            intervencionistas para mitigar os efeitos da crise.
-          </p>
-          <p>
-            No Brasil, a crise contribuiu para a Revolução de 1930, que levou
-            Getúlio Vargas ao poder e iniciou um período de transformações
-            políticas e econômicas no país. com a implementação de políticas
-            nacionalistas e intervencionistas. Vargas também criou a
-            Consolidação das Leis do Trabalho (CLT) para proteger os direitos
-            dos trabalhadores.
-          </p>
+         <>
+  <p><strong>(1929–1939)</strong></p>
+
+ <p>
+        A Crise de 1929, conhecida como a Grande Depressão, foi um evento de repercussão global que transformou profundamente a economia mundial e os sistemas políticos dos países afetados. Teve início com o colapso da Bolsa de Valores de Nova York, em outubro de 1929, quando o mercado acionário despencou após anos de crescimento especulativo e bolha financeira. Esse crash provocou um efeito dominó que resultou no fechamento de bancos, falência de empresas e desemprego em massa, afetando milhões de pessoas.
+      </p>
+      <p>
+        A década de 1920 foi caracterizada por um crescimento econômico acelerado nos Estados Unidos e em outras potências, sustentado por consumo elevado, crédito fácil e especulação financeira. No entanto, essa prosperidade era instável, marcada por desigualdades e pelo excesso de produção industrial que superava a demanda real. Quando os investidores perderam confiança, venderam ações em massa, causando o colapso do mercado. O impacto imediato foi o congelamento dos créditos, a queda da produção e o aumento do desemprego para níveis recordes, afetando tanto o setor industrial quanto o agrícola.
+      </p>
+      <p>
+        O efeito da crise espalhou-se rapidamente para a Europa, América Latina e outras regiões, agravando a recessão global e causando crises políticas em vários países. A resposta inicial dos governos foi o protecionismo comercial, que piorou ainda mais a situação ao reduzir o comércio internacional. Nos Estados Unidos, o presidente Franklin D. Roosevelt lançou o New Deal, um conjunto de reformas e políticas públicas para estimular a economia, proteger os trabalhadores e reformar o sistema financeiro, fortalecendo o papel do Estado na economia.
+      </p>
+      <p>
+        A Crise de 1929 teve consequências duradouras, alterando para sempre a relação entre Estado e economia, acelerando o declínio do liberalismo econômico clássico e pavimentando o caminho para regimes autoritários na Europa, como o fascismo e o nazismo, que exploraram o descontentamento popular para ascender ao poder. Além disso, a crise evidenciou a necessidade de mecanismos regulatórios para o mercado financeiro e políticas sociais para proteger os mais vulneráveis.
+      </p>
+</>
+
         </div>
 
         <SliderHome imagens={imagens} />

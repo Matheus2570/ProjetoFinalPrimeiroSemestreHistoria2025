@@ -75,25 +75,23 @@ function Pagina5() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Fascismo Italiano </h2>
-          <p>
-          O fascismo Italiano foi um governo conservador e extremista que assumiu
-        o poder do governo por meio de Benito Mussolini em 1922 que acabou
-        oficialmente em 1943. O fascismo na Itália foi um período em que o país
-        foi governado por um partido político conservador, radical e de
-        extrema-direita, de 1922 a 1943, embora de alguma forma tenha se
-        sustentado no poder até 1945. O fascismo surgiu, em 1919, como uma
-        organização paramilitar, transformando-se em partido em 1921. Liderado
-        por Benito Mussolini, o fascismo se aproveitou do cenário de incerteza
-        na qual a Itália vivia após o trauma do pós-Primeira Guerra Mundial.
-        Usava da violência para alcançar os seus objetivos e cresceu
-        consideravelmente violentando os socialistas na Europa. Benito Mussolini
-        foi executado no final da Segunda Guerra Mundial. Diante disso o
-        fascismo via nessas práticas o objetivo único de alcançar o “destino
-        fatal de Roma”, que seria o de um país glorioso e dominador de muitas
-        terras. Inclusive, por conta disso, realizava um resgate do passado
-        histórico romano, com o objetivo de transmitir a ideia da “força” do
-        povo italiano.
-          </p>
+          <>
+  <p><strong>(1917 - 1943)</strong></p>
+
+   <p>
+        O fascismo italiano foi um movimento político autoritário e nacionalista que surgiu no início do século XX, liderado por Benito Mussolini, e que moldou profundamente a Itália entre as décadas de 1920 e 1940. Após a Primeira Guerra Mundial, a Itália vivia uma grave crise econômica, social e política, com desemprego elevado, greves e o medo do avanço do socialismo e do comunismo. Nesse contexto, Mussolini fundou o Partido Nacional Fascista em 1919, prometendo restaurar a ordem, a estabilidade e o orgulho nacional.
+      </p>
+      <p>
+        O fascismo pregava a supremacia do Estado sobre o indivíduo, o culto à autoridade e ao líder, a repressão das oposições políticas e o combate ao socialismo. Mussolini e seus seguidores utilizavam violência paramilitar, propagandas intensas e retórica nacionalista para conquistar apoio popular. Em 1922, com a Marcha sobre Roma, Mussolini pressionou o rei a nomeá-lo Primeiro-Ministro, iniciando a consolidação do regime fascista que aboliu as instituições democráticas, censurou a imprensa e perseguiu opositores.
+      </p>
+      <p>
+        Durante seu governo, Mussolini implementou políticas expansionistas, promovendo a invasão da Etiópia em 1935, buscando restaurar o império romano e colocar a Itália entre as grandes potências mundiais. O fascismo italiano também formou uma aliança estreita com o nazismo alemão, culminando na participação da Itália na Segunda Guerra Mundial ao lado das potências do Eixo. O regime fascista ficou marcado pelo autoritarismo extremo, pela propaganda ideológica e pela repressão brutal, e terminou com a derrota da Itália em 1945 e a morte de Mussolini.
+      </p>
+      <p>
+        O fascismo é um dos exemplos mais estudados de regimes totalitários do século XX, ilustrando como crises econômicas e medos sociais podem ser explorados para a ascensão de governos autoritários, e deixando um legado de violência, intolerância e destruição.
+      </p>
+</>
+
 
           
         </div>

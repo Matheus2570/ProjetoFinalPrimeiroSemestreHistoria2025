@@ -74,6 +74,7 @@ function Pagina4() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Revolução Russa</h2>
+           <p><strong>(1917–1928)</strong></p>
           <p>
           A Rússia era um grande império governado por um imperador chamado czar, que detinha poder absoluto sobre tudo. Apesar de ser uma potência territorial, o Império Russo era muito pobre em comparação com outras nações. Enquanto alguns membros do governo e da nobreza viviam com muito luxo, a maior parte da população vivia em extrema pobreza. </p>
           <p>

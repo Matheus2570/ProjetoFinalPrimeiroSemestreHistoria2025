@@ -74,11 +74,22 @@ function Pagina8() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Revolução de 1930</h2>
-          <p>A Revolução de 1930 foi um movimento político-militar que marcou o fim da República Velha e o início da Era Vargas no Brasil. Liderada por Getúlio Vargas, o então governador do Rio Grande do Sul, e com o apoio de outros estados como Minas Gerais e Paraíba, a revolução depôs o presidente Washington Luís antes que o presidente eleito Júlio Prestes tomasse posse.
-<br></br>
-A insatisfação com a política do "café com leite", que alternava o poder entre as oligarquias de Minas Gerais e São Paulo, a crise econômica de 1929 e o assassinato de João Pessoa, candidato a vice-presidente na chapa de Vargas pela Aliança Liberal, foram fatores cruciais para o desencadeamento do movimento.
-<br></br>
-Em outubro de 1930, as tropas revolucionárias iniciaram levantes em diversos estados, culminando na deposição de Washington Luís no dia 24 de outubro. Em 3 de novembro de 1930, Getúlio Vargas assumiu a chefia do Governo Provisório, marcando o fim da República Velha e o início de um novo período na história do Brasil, caracterizado pela centralização do poder e por importantes reformas sociais e econômicas.</p>
+         <>
+  <p><strong>(1930)</strong></p>
+
+   <p>
+        A Revolução de 1930 foi um movimento político-militar que representou a ruptura da chamada República Velha no Brasil, pondo fim à política do café com leite, baseada na alternância de poder entre São Paulo e Minas Gerais, e promovendo a ascensão de Getúlio Vargas ao poder. O contexto da revolução está inserido nas profundas transformações econômicas, sociais e políticas do país, agravadas pela crise econômica mundial de 1929, que afetou severamente as exportações brasileiras e a economia do café.
+      </p>
+      <p>
+        A eleição presidencial de 1930 foi marcada pela vitória de Júlio Prestes, candidato da situação, que foi contestada pela oposição, principalmente por Getúlio Vargas, governador do Rio Grande do Sul e líder da Aliança Liberal. O assassinato do candidato a vice-presidente da oposição, João Pessoa, serviu como estopim para a revolta. Diversos estados, insatisfeitos com o domínio paulista e com as condições econômicas do país, aderiram ao movimento revolucionário, que contou com o apoio decisivo dos militares.
+      </p>
+      <p>
+        A revolução culminou na deposição do presidente Washington Luís e na posse de Getúlio Vargas como presidente provisório, iniciando uma nova era política. Vargas implementou uma série de reformas voltadas para a modernização econômica e social, centralizando o poder e promovendo maior intervenção do Estado na economia, além de incentivar a industrialização. Seu governo ficou marcado pela implantação de políticas trabalhistas, criação de leis sociais e pela formação do Estado Novo em 1937, um regime autoritário que duraria até 1945.
+      </p>
+      <p>
+        A Revolução de 1930 significou uma mudança profunda na estrutura política do Brasil, rompendo com os velhos oligopólios rurais e dando início a uma fase de modernização do país, que buscava integrar as diferentes regiões nacionais e enfrentar os desafios da industrialização e urbanização, configurando-se como um marco importante na história brasileira.
+      </p>
+</>
 
         </div>
 
