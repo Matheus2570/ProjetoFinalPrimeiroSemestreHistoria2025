@@ -5,7 +5,7 @@ import Canudos from '../assets/imagemCan2.jpg';
 import Contestado from '../assets/GuerraContestado2.jpg';
 import PrimeiraGuerra from '../assets/PrimeiraGuerra1.png';
 import RevolucaoRussa from '../assets/revolucaorussa4.png';
-import Fascismo from '../assets/fascismoItaliano.png';
+import Fascismo from '../assets/FascismoItaliano2.png';
 import CriseDe1929 from '../assets/criseDe1929_3.jpg';
 import Revolucao1930 from '../assets/Revolucao1930(2).png';
 import Footer from '../components/footerSemFonte';
