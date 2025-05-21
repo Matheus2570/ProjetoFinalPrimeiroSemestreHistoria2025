@@ -1,9 +1,9 @@
 .navBar {
-  
-  padding: 3.2%;
+  padding: 2%;
   box-shadow: 0 4px 8px #534d43;
   position: relative;
   z-index: 20;
+  
 }
 
 .navTopo {

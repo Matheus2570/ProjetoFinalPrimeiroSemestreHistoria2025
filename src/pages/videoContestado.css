@@ -44,3 +44,7 @@
 .descricao-video {
     color: #000000;
 }
+
+[data-theme="dark"] .descricao-video {
+   color: rgb(255, 255, 255);
+}
