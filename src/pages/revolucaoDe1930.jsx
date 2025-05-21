@@ -74,11 +74,45 @@ function Pagina8() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Revolução de 1930</h2>
-          <p>A Revolução de 1930 foi um movimento político-militar que marcou o fim da República Velha e o início da Era Vargas no Brasil. Liderada por Getúlio Vargas, o então governador do Rio Grande do Sul, e com o apoio de outros estados como Minas Gerais e Paraíba, a revolução depôs o presidente Washington Luís antes que o presidente eleito Júlio Prestes tomasse posse.
-<br></br>
-A insatisfação com a política do "café com leite", que alternava o poder entre as oligarquias de Minas Gerais e São Paulo, a crise econômica de 1929 e o assassinato de João Pessoa, candidato a vice-presidente na chapa de Vargas pela Aliança Liberal, foram fatores cruciais para o desencadeamento do movimento.
-<br></br>
-Em outubro de 1930, as tropas revolucionárias iniciaram levantes em diversos estados, culminando na deposição de Washington Luís no dia 24 de outubro. Em 3 de novembro de 1930, Getúlio Vargas assumiu a chefia do Governo Provisório, marcando o fim da República Velha e o início de um novo período na história do Brasil, caracterizado pela centralização do poder e por importantes reformas sociais e econômicas.</p>
+         <>
+  <p><strong>(1930)</strong></p>
+
+  <p>
+  <strong>Contexto e Fim da República Velha</strong><br />
+  A Revolução de 1930 foi um movimento político-militar de grande importância na história do Brasil, pois marcou o fim da chamada República Velha (ou Primeira República), que havia se consolidado desde 1889 com a Proclamação da República. Essa ruptura colocou um ponto final na política do café com leite, uma prática que envolvia a alternância no poder entre as elites de São Paulo (forte na produção de café) e Minas Gerais (baseada na pecuária e agricultura), excluindo outras regiões do país do protagonismo político. O movimento revolucionário representou o início de uma nova fase no Brasil, caracterizada por transformações estruturais nas esferas política, econômica e social.
+</p>
+
+<p>
+  <strong>Causas da Revolução</strong><br />
+  O pano de fundo da revolução envolvia a crise da ordem oligárquica, a insatisfação das elites regionais excluídas do poder central e a intensificação de movimentos sociais e reivindicações populares. A crise econômica mundial de 1929 agravou ainda mais a situação do Brasil, que dependia fortemente da exportação de café. Com a queda dos preços do produto no mercado internacional, milhares de produtores faliram e o governo foi incapaz de lidar com a crise. Esse contexto de descontentamento foi essencial para fomentar a oposição ao governo federal.
+</p>
+
+<p>
+  <strong>Eleição de 1930 e Aliança Liberal</strong><br />
+  A eleição presidencial de 1930, vencida por Júlio Prestes, candidato da situação apoiado pelas oligarquias paulistas e mineiras, foi amplamente contestada pela oposição reunida na Aliança Liberal, liderada por Getúlio Vargas, então governador do Rio Grande do Sul. A Aliança Liberal tinha como vice o paraibano João Pessoa. O assassinato de João Pessoa em julho de 1930, ainda que não relacionado diretamente à política nacional, foi usado como justificativa simbólica para desencadear o movimento revolucionário. A morte foi explorada como um exemplo da violência e corrupção do regime vigente.
+</p>
+
+<p>
+  <strong>Início e Desdobramentos da Revolução</strong><br />
+  A Revolução teve início em 3 de outubro de 1930, com levantes em diversos estados como Rio Grande do Sul, Minas Gerais e Paraíba. A movimentação revolucionária ganhou força rapidamente, principalmente com o apoio de setores das Forças Armadas, que passaram a pressionar o governo federal. Diante da instabilidade e da impossibilidade de conter os avanços dos revolucionários, o presidente Washington Luís foi deposto em 24 de outubro de 1930 por um grupo de militares, que impediram a posse de Júlio Prestes e entregaram o poder a Getúlio Vargas, então líder da revolução.
+</p>
+
+<p>
+  <strong>Governo Provisório de Vargas e Reformas</strong><br />
+  Com a chegada de Vargas ao poder, iniciou-se uma nova fase da política brasileira. Ele assumiu a presidência provisoriamente e, ao longo dos anos seguintes, centralizou o poder, extinguiu o Congresso Nacional, substituiu governadores por interventores nomeados por ele e passou a concentrar a autoridade no governo federal. Vargas também implementou políticas que visavam modernizar o país, com forte intervenção estatal na economia, incentivo à industrialização, desenvolvimento da infraestrutura e criação de políticas sociais e trabalhistas. Leis como a Consolidação das Leis do Trabalho (CLT), instituída mais tarde, se originaram desse novo modelo.
+</p>
+
+<p>
+  <strong>Estado Novo (1937-1945)</strong><br />
+  Em 1937, Vargas deu um golpe de Estado e instituiu o Estado Novo, uma ditadura que durou até 1945. Esse regime autoritário suspendeu as liberdades civis, censurou a imprensa, reprimiu opositores e implantou um governo centralizador e nacionalista. Apesar disso, o período também foi marcado por um processo de modernização da estrutura produtiva e pela valorização do trabalhador urbano como novo ator político.
+</p>
+
+<p>
+  <strong>Legado da Revolução de 1930</strong><br />
+  A Revolução de 1930 representou, portanto, uma ruptura com o modelo de República oligárquica e ruralista, abrindo caminho para um Estado mais centralizado, urbano-industrial e com maior presença nas esferas sociais e econômicas. Foi um marco de transição entre o Brasil agrário da República Velha e o Brasil moderno, cuja base econômica e institucional seria profundamente transformada nas décadas seguintes. Essa revolução redefiniu o papel do Estado brasileiro e iniciou a Era Vargas, que influenciaria decisivamente os rumos do país ao longo do século XX.
+</p>
+
+</>
 
         </div>
 

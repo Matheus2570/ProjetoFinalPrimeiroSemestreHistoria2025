@@ -70,41 +70,41 @@ function Pagina6() {
       <div className="resumo-pessoal">
         <div className="resumo-texto">
           <h2>Resumo pessoal – Crise de 1929</h2>
-          <p>
-            A Crise de 1929 foi um colapso econômico mundial que começou nos EUA
-            com a quebra da Bolsa de Valores de Nova York devido à superprodução
-            industrial, subconsumo da população, especulação excessiva no
-            mercado de ações e políticas econômicas inadequadas.
-          </p>
-          <p>
-            Isso levou a falências de empresas, desemprego em massa e impacto
-            sobre a exportação de café no Brasil. O presidente Franklin D.
-            Roosevelt implementou o New Deal, um plano de recuperação econômica
-            com investimento em obras públicas, programas de assistência social,
-            reforma bancária e estímulo ao emprego.
-          </p>
-          <p>
-            A crise evidenciou as fragilidades do sistema capitalista liberal e
-            levou à adoção de modelos econômicos mais regulados. Seu fim se deu
-            com o New Deal e a entrada dos EUA na Segunda Guerra Mundial,
-            deixando um legado de profundas transformações políticas, sociais e
-            econômicas no século XX.
-          </p>
-          <p>
-            A Crise de 1929 também teve um impacto significativo na política
-            global, contribuindo para o surgimento de regimes autoritários em
-            alguns países. Além disso, a crise levou a uma reavaliação do papel
-            do Estado na economia, com muitos governos adotando políticas
-            intervencionistas para mitigar os efeitos da crise.
-          </p>
-          <p>
-            No Brasil, a crise contribuiu para a Revolução de 1930, que levou
-            Getúlio Vargas ao poder e iniciou um período de transformações
-            políticas e econômicas no país. com a implementação de políticas
-            nacionalistas e intervencionistas. Vargas também criou a
-            Consolidação das Leis do Trabalho (CLT) para proteger os direitos
-            dos trabalhadores.
-          </p>
+         <>
+  <p><strong>(1929–1939)</strong></p>
+
+<p>
+  <strong>Contexto e Início da Crise</strong><br />
+  A Crise de 1929, também conhecida como a Grande Depressão, foi um dos mais impactantes colapsos econômicos da história moderna, com efeitos devastadores que repercutiram em escala global. Teve início nos Estados Unidos, com a quebra da Bolsa de Valores de Nova York em 24 de outubro de 1929, data que ficou conhecida como a "Quinta-feira Negra". Durante essa semana, os mercados acionários entraram em colapso devido à venda massiva de ações, provocada pelo temor de que os preços estivessem inflacionados artificialmente. Essa quebra pôs fim a uma década de prosperidade aparente, marcada por crescimento especulativo, crédito facilitado e otimismo exagerado no sistema financeiro.
+</p>
+
+<p>
+  <strong>Década de 1920: Prosperidade Frágil</strong><br />
+  A década de 1920, chamada de "Anos Loucos" ou "Roaring Twenties", foi caracterizada por um rápido crescimento econômico, sobretudo nos Estados Unidos, com avanços tecnológicos, aumento do consumo e expansão do crédito. No entanto, essa prosperidade era frágil e desigual, baseada em especulação financeira e superprodução. As indústrias produziam mais do que o mercado podia absorver, gerando estoques excessivos e queda nos preços. Enquanto isso, os trabalhadores, que representavam a maioria da população, não acompanhavam esse ritmo de enriquecimento, criando um desequilíbrio estrutural entre produção e consumo.
+</p>
+
+<p>
+  <strong>Impactos Econômicos e Sociais</strong><br />
+  O colapso da bolsa provocou uma reação em cadeia: bancos faliram em massa por não conseguirem recuperar os empréstimos feitos com base em ações supervalorizadas, empresas fecharam por falta de crédito e consumidores pararam de gastar. O desemprego atingiu níveis alarmantes, com cerca de 25% da força de trabalho norte-americana desocupada em 1933. Milhares de pessoas perderam suas casas, e cidades inteiras mergulharam na pobreza. A crise não se restringiu aos Estados Unidos. Como a economia mundial estava cada vez mais interligada, os efeitos foram sentidos na Europa, na América Latina, na Ásia e em outras regiões, provocando uma recessão global.
+</p>
+
+<p>
+  <strong>Consequências Políticas</strong><br />
+  As consequências políticas da crise foram igualmente severas. Em muitos países europeus, o desemprego em massa e a instabilidade econômica geraram insatisfação popular, que foi explorada por movimentos autoritários. Na Alemanha, a crise enfraqueceu a frágil República de Weimar e facilitou a ascensão de Adolf Hitler e do Partido Nazista ao poder. Na Itália, fortaleceu o regime fascista de Benito Mussolini. Na América Latina, provocou mudanças nos modelos econômicos e o crescimento de governos com propostas nacionalistas e intervencionistas, como o de Getúlio Vargas no Brasil.
+</p>
+
+<p>
+  <strong>Resposta dos Estados Unidos: New Deal</strong><br />
+  Nos Estados Unidos, a resposta governamental inicial foi tímida, mas a partir de 1933, com a posse do presidente Franklin D. Roosevelt, foi implementado o New Deal. Esse conjunto de medidas incluía investimentos públicos em obras de infraestrutura, criação de empregos, regulação do sistema bancário e da bolsa de valores, e programas sociais de apoio a desempregados e agricultores. O New Deal redefiniu o papel do Estado na economia, rompendo com o liberalismo clássico e abrindo caminho para uma nova era de intervenção estatal.
+</p>
+
+<p>
+  <strong>Legado e Lições da Crise</strong><br />
+  A Crise de 1929 deixou lições profundas. Ficou evidente que os mercados não são capazes de se autorregular de forma eficiente em momentos de instabilidade. A necessidade de instituições fortes, políticas públicas inclusivas e sistemas regulatórios se tornou uma das principais conclusões extraídas desse período. Além disso, a crise reforçou a importância do equilíbrio entre crescimento econômico e justiça social, apontando para um novo paradigma na relação entre Estado, mercado e sociedade.
+</p>
+
+</>
+
         </div>
 
         <SliderHome imagens={imagens} />
