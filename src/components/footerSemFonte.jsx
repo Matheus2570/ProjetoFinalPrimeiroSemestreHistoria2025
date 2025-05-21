@@ -23,8 +23,8 @@ function FooterSemFonte() {
           </div>
 
           <div className="BlocoReclamacoes">
-            <p>Numero para reclamações: (19) 9891-24968 / 0800-9875</p>
-            <p>Numero para feedbacks e dúvidas: (19) 9891-24968 / 0800-9875</p>
+            <p>Número para reclamações: (19) 9891-24968 / 0800-9875</p>
+            <p>Número para feedbacks e dúvidas: (19) 9891-24968 / 0800-9875</p>
           </div>
         </div>
       </footer>
