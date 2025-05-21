@@ -1,4 +1,4 @@
-import grupoImg from '../assets/grupo.png';
+import grupoImg from '../assets/grupo.jpeg';
 import Footer from '../components/footerSemFonte';
 import './sobreNos.css';
 
