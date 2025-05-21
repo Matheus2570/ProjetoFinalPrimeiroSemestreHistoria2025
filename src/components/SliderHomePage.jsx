@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './sliderHomePage.css'; 
+import './SliderHomePage.css'; 
 
 function SliderHomePage(props) {
   const { imagens } = props;

@@ -15,7 +15,7 @@ import CriseDe19292 from '../assets/criseDe1929_3.jpg'
 import RevolucaoDe1930 from '../assets/Revolucao1930(4).png'
 import RevolucaoDe19302 from '../assets/Revolucao1930(2).png'
 
-import SliderHome from '../components/sliderHomePage';
+import SliderHome from '../components/SliderHomePage';
 function Home() {
   const imagens = [
      Canudos1,
