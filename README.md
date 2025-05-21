@@ -59,7 +59,7 @@ Queremos criar um site interativo que ajude as pessoas a entenderem a história 
 - Vitor Gabriel
 - Valentina
 - Ana Clara
-<img src="https://github.com/user-attachments/assets/d29b3443-77e8-44f2-acea-f047a4477599" alt="Foto do grupo" width="300"/>
+<img src="https://github.com/user-attachments/assets/711b8931-99b3-4a47-abea-88fd2bcfd8fb" alt="Foto do grupo" width="300"/>
 
 
 ## 💻 Como visualizar em seu computador:
