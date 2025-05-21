@@ -13,7 +13,7 @@ function Pagina10() {
       <main>
         <section className="videoosection">
           <iframe
-            src="https://www.youtube.com/embed/FF6I7lB8uAg"
+            src="https://www.youtube.com/embed/r6TwTD23uBY?si=MSJc4nsXJRAskdBW"
             title="Vídeo sobre a Guerra do Contestado"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
