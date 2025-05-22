@@ -1,50 +1,75 @@
+// Importação de hooks do React
 import { useEffect, useState } from "react";
+
+// Importação de componentes personalizados
 import SliderHome from "../components/sliderPaginas";
+import Footer from "../components/footerPaginas.jsx";
+import Curtidas from "../components/botaoCurtir.jsx";
+
+// Importação de estilos CSS
 import "./cssPaginasGlobais.css";
+
+// Importação de imagens
 import Contestado1 from "../assets/GuerraContestado1.jpg";
 import Contestado2 from "../assets/GuerraContestado2.jpg";
 import Contestado3 from "../assets/GuerraContestado3.jpg";
 import Contestado4 from "../assets/GuerraContestado4.jpg";
-import Footer from "../components/footerPaginas.jsx";
-import Curtidas from "../components/botaoCurtir.jsx";
 
+// Função principal da página
 function Pagina2() {
+  // Estado para armazenar dados da API
   const [dado, setDado] = useState(null);
+
+  // Estado para armazenar erros
   const [erro, setErro] = useState("");
+
+  // Estado para controlar o carregamento da página
   const [loading, setLoading] = useState(true);
 
+  // Array de imagens para o carrossel
   const imagens = [Contestado1, Contestado2, Contestado3, Contestado4];
 
+  // Hook para buscar dados da API quando a página é carregada
   useEffect(() => {
     const buscarDado = async () => {
       try {
+        // Verifica se há dados armazenados no localStorage
         const dadoLocal = localStorage.getItem("guerraDoContestado");
         if (dadoLocal) {
+          // Se há dados, os carrega e atualiza o estado
           setDado(JSON.parse(dadoLocal));
           setLoading(false);
           return;
         }
 
+        // Se não há dados, faz uma requisição à API
         const res = await fetch(
           `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(
             "Guerra do Contestado"
           )}`
         );
         const resultado = await res.json();
+        // Armazena os dados no localStorage
         localStorage.setItem("guerraDoContestado", JSON.stringify(resultado));
+        // Atualiza o estado com os dados
         setDado(resultado);
       } catch (erro) {
+        // Se ocorrer um erro, atualiza o estado com a mensagem de erro
         setErro("Erro ao buscar dados.");
       } finally {
+        // Atualiza o estado para indicar que a página foi carregada
         setLoading(false);
       }
     };
 
+    // Chama a função para buscar dados
     buscarDado();
   }, []);
 
+  // Retorna o conteúdo da página
   return (
-    <div className="container">
+    /* Bloco fantasma */ 
+    <div className="container"> 
       {/* Bloco da API */}
       {loading && <p>Carregando...</p>}
       {erro && <p style={{ color: "red" }}>{erro}</p>}
@@ -164,4 +189,5 @@ function Pagina2() {
   );
 }
 
+// Exporta a função principal da página
 export default Pagina2;

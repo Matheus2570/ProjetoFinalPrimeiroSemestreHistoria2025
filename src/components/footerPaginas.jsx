@@ -23,7 +23,7 @@ function FooterPaginas({ link1, nome1, link2, nome2, link3, nome3 }) {
         </div>
         <div className="footer-contact">
           <div className="contact-item">
-            <strong>Email:</strong> contato@exemplo.com
+            <strong>Email:</strong> tupi_leandro@gmail.com
           </div>
           <div className="contact-item">
             <strong>Telefone:</strong> (11) 99999-9999

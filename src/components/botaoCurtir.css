@@ -6,7 +6,7 @@
   
   .botaoCurtir {
     width: 7%;
-    background-color: #007bff;
+    background-color: #09e42a;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -16,7 +16,8 @@
   }
   
   .botaoCurtir:hover {
-    background-color: #0056b3;
+    background-color: #00b30c;
+    transition: background-color 0.3s ease;
   }
   
 

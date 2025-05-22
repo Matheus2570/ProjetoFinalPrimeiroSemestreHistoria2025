@@ -50,6 +50,7 @@ function Pagina4() {
   }, []);
 
   return (
+    /* Bloco fantasma */ 
     <div className="container">
       {/* Bloco da API */}
       {loading && <p>Carregando...</p>}

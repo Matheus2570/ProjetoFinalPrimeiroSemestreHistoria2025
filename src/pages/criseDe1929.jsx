@@ -42,7 +42,8 @@ function Pagina6() {
   }, []);
 
   return (
-    <div className="container">
+    /* Bloco fantasma */ 
+    <div className="container"> 
       {/* Bloco da API */}
       {loading && <p>Carregando...</p>}
       {erro && <p style={{ color: "red" }}>{erro}</p>}
