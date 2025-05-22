@@ -35,14 +35,14 @@ body {
 /* Responsividade para o botão em telas menores */
 @media (max-width: 768px) {
   .botao-tema {
-      font-size: 2rem; /* Aumentei o tamanho do botão para dispositivos menores */
-      padding: 18px; /* Aumentei o padding para melhorar a interação */
+      font-size: 2rem; 
+      padding: 18px; 
   }
 }
 
 @media (max-width: 480px) {
   .botao-tema {
-      font-size: 1.6rem; /* Tamanho maior para telas menores */
-      padding: 20px; /* Aumentei o padding para melhorar a usabilidade */
+      font-size: 1.6rem; 
+      padding: 20px; 
   }
 }

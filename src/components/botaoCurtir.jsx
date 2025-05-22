@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "./botaoCurtir.css"; // ou embuta o CSS se quiser
+import  { useState, useEffect } from "react";
+import "./botaoCurtir.css"; 
 
-const Curtidas = ({ chaveLocalStorage }) => {
+const Curtidas = ({ chaveLocalStorage }) => {   //Props
   const [curtidas, setCurtidas] = useState(0);
 
   useEffect(() => {
