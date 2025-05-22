@@ -9,7 +9,7 @@ const MudarTema = () => {
     localStorage.setItem('tema', tema);
     document.documentElement.setAttribute('data-theme', tema);
   }, [tema]);
-
+  
   const alternarTema = () => {
     setTema(prevTema => (prevTema === 'light' ? 'dark' : 'light'));
   };
