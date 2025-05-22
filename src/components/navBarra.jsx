@@ -13,6 +13,11 @@ function Nav() {
     setMenuAberto(!menuAberto); // Alterna o estado do menu
   };
 
+
+  const handleClick = () => {
+    setMenuAberto(false); // Fecha o menu
+  };
+
   return (
     // Elemento de navegação
     <nav className="navBar">
@@ -44,37 +49,37 @@ function Nav() {
           <ul>
            
             <li>
-              <Link to="/" className="navLink">🏠 Página Principal</Link>
+              <Link to="/" onClick={handleClick} className="navLink">🏠 Página Principal</Link>
             </li>
             <li>
-              <Link to="/guerra-de-canudos" className="navLink">⚔️ Guerra de Canudos</Link>
+              <Link to="/guerra-de-canudos" onClick={handleClick} className="navLink">⚔️ Guerra de Canudos</Link>
             </li>
             <li>
-              <Link to="/guerra-do-contestado" className="navLink">🛡️ Guerra do Contestado</Link>
+              <Link to="/guerra-do-contestado" onClick={handleClick} className="navLink">🛡️ Guerra do Contestado</Link>
             </li>
             <li>
-              <Link to="/primeira-guerra" className="navLink">🌍 Primeira Guerra</Link>
+              <Link to="/primeira-guerra" onClick={handleClick} className="navLink">🌍 Primeira Guerra</Link>
             </li>
             <li>
-              <Link to="/revolucao-russa" className="navLink">☭ Revolução Russa</Link>
+              <Link to="/revolucao-russa" onClick={handleClick} className="navLink">☭ Revolução Russa</Link>
             </li>
             <li>
-              <Link to="/fascismo-italiano" className="navLink">🦅 Fascismo Italiano</Link>
+              <Link to="/fascismo-italiano" onClick={handleClick} className="navLink">🦅 Fascismo Italiano</Link>
             </li>
             <li>
-              <Link to="/crise-de-1929" className="navLink">📉 Crise de 1929</Link>
+              <Link to="/crise-de-1929" onClick={handleClick} className="navLink">📉 Crise de 1929</Link>
             </li>
             <li>
-              <Link to="/revolucao-de-1930" className="navLink">🔥 Revolução de 1930</Link>
+              <Link to="/revolucao-de-1930" onClick={handleClick} className="navLink">🔥 Revolução de 1930</Link>
             </li>
             <li>
-              <Link to="/sobre-nos" className="navLink">👥 Sobre Nós</Link>
+              <Link to="/sobre-nos" onClick={handleClick} className="navLink">👥 Sobre Nós</Link>
             </li>
             <li>
-              <Link to="/ranking" className="navLink">✅ Ranking Das Melhores Páginas</Link>
+              <Link to="/ranking" onClick={handleClick} className="navLink">✅ Ranking Das Melhores Páginas</Link>
             </li>
             <li>
-              <Link to="/video-contestado" className="navLink">🎥 Vídeo Sobre Contestado</Link>
+              <Link to="/video-contestado" onClick={handleClick} className="navLink">🎥 Vídeo Sobre Contestado</Link>
             </li>
           </ul>
         </div>
