@@ -51,7 +51,7 @@
 .api-section h1 {
   margin-bottom: 10px;
 }
-
+  
 .api-section p {
   line-height: 1.6;
   margin: 0 auto;
@@ -62,7 +62,6 @@
 .api-section img {
   margin: 10px auto;
   border-radius: 8px;
-  display: block;
     max-width: 100%;
 }
 
